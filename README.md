@@ -1,8 +1,3 @@
-Here is a **clean, professional, production-quality README.md** tailored specifically for your **MultiBank Selenium Automation Framework** (POM + TestNG + Maven + Jenkins + Selenium Grid support).
-It follows best practices and is suitable for GitHub, portfolio, interviews, and CI documentation.
-
----
-
 # **MultiBank Web Automation Framework – Selenium | Java | TestNG | Maven**
 
 A robust, scalable, and maintainable **test automation framework** built for validating critical functionalities of the **MultiBank Web Trading Platform**.
