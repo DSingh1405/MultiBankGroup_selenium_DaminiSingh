@@ -159,6 +159,9 @@ If enabled:
 ```
 /ExtentReports/
 ```
+### **Extent Report Execution Screenshot for Reference**
+<img width="1917" height="906" alt="image" src="https://github.com/user-attachments/assets/22b48030-c568-4693-9683-16cc4149ea41" />
+
 
 ### **Jenkins Reports**
 
