@@ -211,7 +211,7 @@ mvn clean test
 
 ### **5. Post Build Actions**
 
-* Publish JUnit report: `**/surefire-reports/*.xml`
+* Publish report: `**/surefire-reports/*.xml`
 * Archive artifacts: `/target/**`
 * Email notification on failure
 
