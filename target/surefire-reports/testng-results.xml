@@ -1,0 +1,1163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="0" total="23" passed="14" failed="4" skipped="4">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-03T20:22:29 GST" name="XBR-001 CrossBrowser Full Suite" finished-at="2025-12-03T20:29:42 GST" duration-ms="432380">
+    <groups>
+    </groups>
+    <test started-at="2025-12-03T20:22:29 GST" name="Chrome_AllTests" finished-at="2025-12-03T20:28:43 GST" duration-ms="373478">
+      <class name="multibankDSTest.WhyMultiLinkPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:multibankDSTest.WhyMultiLinkPageTest@c05fddc]" started-at="2025-12-03T20:22:30 GST" name="setUp" finished-at="2025-12-03T20:22:53 GST" duration-ms="23846" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="navigateToWhyMultiLink()[pri:0, instance:multibankDSTest.WhyMultiLinkPageTest@c05fddc]" started-at="2025-12-03T20:22:53 GST" name="navigateToWhyMultiLink" finished-at="2025-12-03T20:23:44 GST" duration-ms="51112" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for multibank.DaminiSinghAssignment.PageObjects.BasePage$$Lambda$804/0x0000000800eb0f20@5deba865 (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for multibank.DaminiSinghAssignment.PageObjects.BasePage$$Lambda$804/0x0000000800eb0f20@5deba865 (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:265)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at multibank.DaminiSinghAssignment.PageObjects.BasePage.waitForVisibility(BasePage.java:41)
+at multibank.DaminiSinghAssignment.PageObjects.WhyMultiLinkPage.waitForPageToLoad(WhyMultiLinkPage.java:36)
+at multibankDSTest.WhyMultiLinkPageTest.navigateToWhyMultiLink(WhyMultiLinkPageTest.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToWhyMultiLink -->
+        <test-method signature="ABOUT_001_verifyAllComponentsVisible()[pri:0, instance:multibankDSTest.WhyMultiLinkPageTest@c05fddc]" started-at="2025-12-03T20:23:44 GST" name="ABOUT_001_verifyAllComponentsVisible" finished-at="2025-12-03T20:23:44 GST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for multibank.DaminiSinghAssignment.PageObjects.BasePage$$Lambda$804/0x0000000800eb0f20@5deba865 (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for multibank.DaminiSinghAssignment.PageObjects.BasePage$$Lambda$804/0x0000000800eb0f20@5deba865 (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:265)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at multibank.DaminiSinghAssignment.PageObjects.BasePage.waitForVisibility(BasePage.java:41)
+at multibank.DaminiSinghAssignment.PageObjects.WhyMultiLinkPage.waitForPageToLoad(WhyMultiLinkPage.java:36)
+at multibankDSTest.WhyMultiLinkPageTest.navigateToWhyMultiLink(WhyMultiLinkPageTest.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ABOUT_001_verifyAllComponentsVisible -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:multibankDSTest.WhyMultiLinkPageTest@c05fddc]" started-at="2025-12-03T20:23:44 GST" name="tearDown" finished-at="2025-12-03T20:23:45 GST" duration-ms="849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:multibankDSTest.WhyMultiLinkPageTest@c05fddc]" started-at="2025-12-03T20:23:45 GST" name="setUp" finished-at="2025-12-03T20:24:01 GST" duration-ms="15855" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="navigateToWhyMultiLink()[pri:0, instance:multibankDSTest.WhyMultiLinkPageTest@c05fddc]" started-at="2025-12-03T20:24:01 GST" name="navigateToWhyMultiLink" finished-at="2025-12-03T20:24:48 GST" duration-ms="47050" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for multibank.DaminiSinghAssignment.PageObjects.BasePage$$Lambda$804/0x0000000800eb0f20@5c9969cb (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for multibank.DaminiSinghAssignment.PageObjects.BasePage$$Lambda$804/0x0000000800eb0f20@5c9969cb (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:265)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at multibank.DaminiSinghAssignment.PageObjects.BasePage.waitForVisibility(BasePage.java:41)
+at multibank.DaminiSinghAssignment.PageObjects.WhyMultiLinkPage.waitForPageToLoad(WhyMultiLinkPage.java:36)
+at multibankDSTest.WhyMultiLinkPageTest.navigateToWhyMultiLink(WhyMultiLinkPageTest.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToWhyMultiLink -->
+        <test-method signature="ABOUT_002_verifyTextsAgainstJson()[pri:0, instance:multibankDSTest.WhyMultiLinkPageTest@c05fddc]" started-at="2025-12-03T20:24:48 GST" name="ABOUT_002_verifyTextsAgainstJson" finished-at="2025-12-03T20:24:48 GST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for multibank.DaminiSinghAssignment.PageObjects.BasePage$$Lambda$804/0x0000000800eb0f20@5deba865 (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for multibank.DaminiSinghAssignment.PageObjects.BasePage$$Lambda$804/0x0000000800eb0f20@5deba865 (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:265)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at multibank.DaminiSinghAssignment.PageObjects.BasePage.waitForVisibility(BasePage.java:41)
+at multibank.DaminiSinghAssignment.PageObjects.WhyMultiLinkPage.waitForPageToLoad(WhyMultiLinkPage.java:36)
+at multibankDSTest.WhyMultiLinkPageTest.navigateToWhyMultiLink(WhyMultiLinkPageTest.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ABOUT_002_verifyTextsAgainstJson -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:multibankDSTest.WhyMultiLinkPageTest@c05fddc]" started-at="2025-12-03T20:24:48 GST" name="tearDown" finished-at="2025-12-03T20:24:49 GST" duration-ms="1251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- multibankDSTest.WhyMultiLinkPageTest -->
+      <class name="multibankDSTest.SpotSectionTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:multibankDSTest.SpotSectionTest@4d14b6c2]" started-at="2025-12-03T20:27:10 GST" name="setUp" finished-at="2025-12-03T20:27:28 GST" duration-ms="17961" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:multibankDSTest.SpotSectionTest@4d14b6c2]" started-at="2025-12-03T20:27:28 GST" name="initPage" finished-at="2025-12-03T20:27:28 GST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="verifySpotCategoriesHaveTradingPairs()[pri:1, instance:multibankDSTest.SpotSectionTest@4d14b6c2]" started-at="2025-12-03T20:27:28 GST" name="verifySpotCategoriesHaveTradingPairs" description="SPOT-001: Verify each Spot category has at least one trading pair" finished-at="2025-12-03T20:27:57 GST" duration-ms="28332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySpotCategoriesHaveTradingPairs -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:multibankDSTest.SpotSectionTest@4d14b6c2]" started-at="2025-12-03T20:27:57 GST" name="tearDown" finished-at="2025-12-03T20:27:57 GST" duration-ms="563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:multibankDSTest.SpotSectionTest@4d14b6c2]" started-at="2025-12-03T20:27:57 GST" name="setUp" finished-at="2025-12-03T20:28:18 GST" duration-ms="21217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySpotTableStructureAndData()[pri:2, instance:multibankDSTest.SpotSectionTest@4d14b6c2]" started-at="2025-12-03T20:28:18 GST" name="verifySpotTableStructureAndData" description="SPOT-002: Validate Spot table structure and data" finished-at="2025-12-03T20:28:24 GST" duration-ms="5494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySpotTableStructureAndData -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:multibankDSTest.SpotSectionTest@4d14b6c2]" started-at="2025-12-03T20:28:18 GST" name="initPage" finished-at="2025-12-03T20:28:18 GST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:multibankDSTest.SpotSectionTest@4d14b6c2]" started-at="2025-12-03T20:28:24 GST" name="tearDown" finished-at="2025-12-03T20:28:24 GST" duration-ms="526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:multibankDSTest.SpotSectionTest@4d14b6c2]" started-at="2025-12-03T20:28:24 GST" name="setUp" finished-at="2025-12-03T20:28:40 GST" duration-ms="15203" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:multibankDSTest.SpotSectionTest@4d14b6c2]" started-at="2025-12-03T20:28:40 GST" name="initPage" finished-at="2025-12-03T20:28:40 GST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="verifySpotHeaderValidationFailsForWrongSpec()[pri:3, instance:multibankDSTest.SpotSectionTest@4d14b6c2]" started-at="2025-12-03T20:28:40 GST" name="verifySpotHeaderValidationFailsForWrongSpec" description="Negative: header validation should fail for wrong spec" finished-at="2025-12-03T20:28:41 GST" duration-ms="1834" status="PASS">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Validation should fail for incorrect header spec but it passed. expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Validation should fail for incorrect header spec but it passed. expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at multibankDSTest.SpotSectionTest.verifySpotHeaderValidationFailsForWrongSpec(SpotSectionTest.java:142)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySpotHeaderValidationFailsForWrongSpec -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:multibankDSTest.SpotSectionTest@4d14b6c2]" started-at="2025-12-03T20:28:41 GST" name="tearDown" finished-at="2025-12-03T20:28:43 GST" duration-ms="1412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- multibankDSTest.SpotSectionTest -->
+      <class name="multibankDSTest.HomePageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:multibankDSTest.HomePageTest@25be7b63]" started-at="2025-12-03T20:24:49 GST" name="setUp" finished-at="2025-12-03T20:25:06 GST" duration-ms="16109" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="APP_001_AppleAppStoreLink_NavigatesToCorrectPage()[pri:0, instance:multibankDSTest.HomePageTest@25be7b63]" started-at="2025-12-03T20:25:06 GST" name="APP_001_AppleAppStoreLink_NavigatesToCorrectPage" finished-at="2025-12-03T20:25:10 GST" duration-ms="4770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APP_001_AppleAppStoreLink_NavigatesToCorrectPage -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:multibankDSTest.HomePageTest@25be7b63]" started-at="2025-12-03T20:25:06 GST" name="initPage" finished-at="2025-12-03T20:25:06 GST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:multibankDSTest.HomePageTest@25be7b63]" started-at="2025-12-03T20:25:10 GST" name="tearDown" finished-at="2025-12-03T20:25:11 GST" duration-ms="691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:multibankDSTest.HomePageTest@25be7b63]" started-at="2025-12-03T20:25:11 GST" name="setUp" finished-at="2025-12-03T20:25:26 GST" duration-ms="15403" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:multibankDSTest.HomePageTest@25be7b63]" started-at="2025-12-03T20:25:26 GST" name="initPage" finished-at="2025-12-03T20:25:26 GST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="APP_002_GooglePlayLink_NavigatesToCorrectPage()[pri:0, instance:multibankDSTest.HomePageTest@25be7b63]" started-at="2025-12-03T20:25:26 GST" name="APP_002_GooglePlayLink_NavigatesToCorrectPage" finished-at="2025-12-03T20:25:36 GST" duration-ms="9246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APP_002_GooglePlayLink_NavigatesToCorrectPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:multibankDSTest.HomePageTest@25be7b63]" started-at="2025-12-03T20:25:36 GST" name="tearDown" finished-at="2025-12-03T20:25:36 GST" duration-ms="671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:multibankDSTest.HomePageTest@25be7b63]" started-at="2025-12-03T20:25:36 GST" name="setUp" finished-at="2025-12-03T20:25:49 GST" duration-ms="12129" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:multibankDSTest.HomePageTest@25be7b63]" started-at="2025-12-03T20:25:49 GST" name="initPage" finished-at="2025-12-03T20:25:49 GST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="FOOT_001_MarketBanner_VisibleAndHasTexts()[pri:0, instance:multibankDSTest.HomePageTest@25be7b63]" started-at="2025-12-03T20:25:49 GST" name="FOOT_001_MarketBanner_VisibleAndHasTexts" finished-at="2025-12-03T20:25:56 GST" duration-ms="7023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FOOT_001_MarketBanner_VisibleAndHasTexts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:multibankDSTest.HomePageTest@25be7b63]" started-at="2025-12-03T20:25:56 GST" name="tearDown" finished-at="2025-12-03T20:25:57 GST" duration-ms="984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:multibankDSTest.HomePageTest@25be7b63]" started-at="2025-12-03T20:25:57 GST" name="setUp" finished-at="2025-12-03T20:26:13 GST" duration-ms="16588" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:multibankDSTest.HomePageTest@25be7b63]" started-at="2025-12-03T20:26:13 GST" name="initPage" finished-at="2025-12-03T20:26:13 GST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="NAV_001_TopNavigation_HeaderAndNavVisible()[pri:0, instance:multibankDSTest.HomePageTest@25be7b63]" started-at="2025-12-03T20:26:13 GST" name="NAV_001_TopNavigation_HeaderAndNavVisible" finished-at="2025-12-03T20:26:14 GST" duration-ms="1199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NAV_001_TopNavigation_HeaderAndNavVisible -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:multibankDSTest.HomePageTest@25be7b63]" started-at="2025-12-03T20:26:14 GST" name="tearDown" finished-at="2025-12-03T20:26:15 GST" duration-ms="476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:multibankDSTest.HomePageTest@25be7b63]" started-at="2025-12-03T20:26:15 GST" name="setUp" finished-at="2025-12-03T20:26:26 GST" duration-ms="11364" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:multibankDSTest.HomePageTest@25be7b63]" started-at="2025-12-03T20:26:26 GST" name="initPage" finished-at="2025-12-03T20:26:26 GST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="NAV_002_TopNavigation_HoverAndHrefMapping()[pri:0, instance:multibankDSTest.HomePageTest@25be7b63]" started-at="2025-12-03T20:26:26 GST" name="NAV_002_TopNavigation_HoverAndHrefMapping" finished-at="2025-12-03T20:26:34 GST" duration-ms="7445" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Href is null for menu: Trade expected object to not be null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Href is null for menu: Trade expected object to not be null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.assertNotNull(Assert.java:1496)
+at multibankDSTest.HomePageTest.NAV_002_TopNavigation_HoverAndHrefMapping(HomePageTest.java:81)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NAV_002_TopNavigation_HoverAndHrefMapping -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:multibankDSTest.HomePageTest@25be7b63]" started-at="2025-12-03T20:26:34 GST" name="tearDown" finished-at="2025-12-03T20:26:35 GST" duration-ms="844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:multibankDSTest.HomePageTest@25be7b63]" started-at="2025-12-03T20:26:35 GST" name="setUp" finished-at="2025-12-03T20:26:51 GST" duration-ms="16065" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:multibankDSTest.HomePageTest@25be7b63]" started-at="2025-12-03T20:26:51 GST" name="initPage" finished-at="2025-12-03T20:26:51 GST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method retried="true" signature="RETRY_001_demoRetryOnTransientFailure()[pri:0, instance:multibankDSTest.HomePageTest@25be7b63]" started-at="2025-12-03T20:26:51 GST" name="RETRY_001_demoRetryOnTransientFailure" description="RETRY-001 demo: flaky-style test with retry" finished-at="2025-12-03T20:26:51 GST" duration-ms="4" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Simulated transient wait/timing failure on first run.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Simulated transient wait/timing failure on first run.
+at org.testng.Assert.fail(Assert.java:111)
+at multibankDSTest.HomePageTest.RETRY_001_demoRetryOnTransientFailure(HomePageTest.java:43)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RETRY_001_demoRetryOnTransientFailure -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:multibankDSTest.HomePageTest@25be7b63]" started-at="2025-12-03T20:26:51 GST" name="tearDown" finished-at="2025-12-03T20:26:52 GST" duration-ms="727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:multibankDSTest.HomePageTest@25be7b63]" started-at="2025-12-03T20:26:52 GST" name="setUp" finished-at="2025-12-03T20:27:07 GST" duration-ms="15440" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:multibankDSTest.HomePageTest@25be7b63]" started-at="2025-12-03T20:27:07 GST" name="initPage" finished-at="2025-12-03T20:27:07 GST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="RETRY_001_demoRetryOnTransientFailure()[pri:0, instance:multibankDSTest.HomePageTest@25be7b63]" started-at="2025-12-03T20:27:07 GST" name="RETRY_001_demoRetryOnTransientFailure" description="RETRY-001 demo: flaky-style test with retry" finished-at="2025-12-03T20:27:09 GST" duration-ms="1637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RETRY_001_demoRetryOnTransientFailure -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:multibankDSTest.HomePageTest@25be7b63]" started-at="2025-12-03T20:27:09 GST" name="tearDown" finished-at="2025-12-03T20:27:10 GST" duration-ms="1287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- multibankDSTest.HomePageTest -->
+    </test> <!-- Chrome_AllTests -->
+    <test started-at="2025-12-03T20:22:29 GST" name="Firefox_AllTests" finished-at="2025-12-03T20:29:42 GST" duration-ms="432380">
+      <class name="multibankDSTest.WhyMultiLinkPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:multibankDSTest.WhyMultiLinkPageTest@66ea810]" started-at="2025-12-03T20:22:30 GST" name="setUp" finished-at="2025-12-03T20:22:53 GST" duration-ms="23645" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="navigateToWhyMultiLink()[pri:0, instance:multibankDSTest.WhyMultiLinkPageTest@66ea810]" started-at="2025-12-03T20:22:53 GST" name="navigateToWhyMultiLink" finished-at="2025-12-03T20:23:36 GST" duration-ms="42979" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for multibank.DaminiSinghAssignment.PageObjects.BasePage$$Lambda$804/0x0000000800eb0f20@67bbace1 (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for multibank.DaminiSinghAssignment.PageObjects.BasePage$$Lambda$804/0x0000000800eb0f20@67bbace1 (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:265)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at multibank.DaminiSinghAssignment.PageObjects.BasePage.waitForVisibility(BasePage.java:41)
+at multibank.DaminiSinghAssignment.PageObjects.WhyMultiLinkPage.waitForPageToLoad(WhyMultiLinkPage.java:36)
+at multibankDSTest.WhyMultiLinkPageTest.navigateToWhyMultiLink(WhyMultiLinkPageTest.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToWhyMultiLink -->
+        <test-method signature="ABOUT_001_verifyAllComponentsVisible()[pri:0, instance:multibankDSTest.WhyMultiLinkPageTest@66ea810]" started-at="2025-12-03T20:23:36 GST" name="ABOUT_001_verifyAllComponentsVisible" finished-at="2025-12-03T20:23:36 GST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for multibank.DaminiSinghAssignment.PageObjects.BasePage$$Lambda$804/0x0000000800eb0f20@67bbace1 (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for multibank.DaminiSinghAssignment.PageObjects.BasePage$$Lambda$804/0x0000000800eb0f20@67bbace1 (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:265)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at multibank.DaminiSinghAssignment.PageObjects.BasePage.waitForVisibility(BasePage.java:41)
+at multibank.DaminiSinghAssignment.PageObjects.WhyMultiLinkPage.waitForPageToLoad(WhyMultiLinkPage.java:36)
+at multibankDSTest.WhyMultiLinkPageTest.navigateToWhyMultiLink(WhyMultiLinkPageTest.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ABOUT_001_verifyAllComponentsVisible -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:multibankDSTest.WhyMultiLinkPageTest@66ea810]" started-at="2025-12-03T20:23:36 GST" name="tearDown" finished-at="2025-12-03T20:23:41 GST" duration-ms="5089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:multibankDSTest.WhyMultiLinkPageTest@66ea810]" started-at="2025-12-03T20:23:41 GST" name="setUp" finished-at="2025-12-03T20:24:07 GST" duration-ms="25746" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="navigateToWhyMultiLink()[pri:0, instance:multibankDSTest.WhyMultiLinkPageTest@66ea810]" started-at="2025-12-03T20:24:07 GST" name="navigateToWhyMultiLink" finished-at="2025-12-03T20:24:57 GST" duration-ms="49466" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for multibank.DaminiSinghAssignment.PageObjects.BasePage$$Lambda$804/0x0000000800eb0f20@5696d024 (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for multibank.DaminiSinghAssignment.PageObjects.BasePage$$Lambda$804/0x0000000800eb0f20@5696d024 (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:265)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at multibank.DaminiSinghAssignment.PageObjects.BasePage.waitForVisibility(BasePage.java:41)
+at multibank.DaminiSinghAssignment.PageObjects.WhyMultiLinkPage.waitForPageToLoad(WhyMultiLinkPage.java:36)
+at multibankDSTest.WhyMultiLinkPageTest.navigateToWhyMultiLink(WhyMultiLinkPageTest.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToWhyMultiLink -->
+        <test-method signature="ABOUT_002_verifyTextsAgainstJson()[pri:0, instance:multibankDSTest.WhyMultiLinkPageTest@66ea810]" started-at="2025-12-03T20:24:57 GST" name="ABOUT_002_verifyTextsAgainstJson" finished-at="2025-12-03T20:24:57 GST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for multibank.DaminiSinghAssignment.PageObjects.BasePage$$Lambda$804/0x0000000800eb0f20@5696d024 (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for multibank.DaminiSinghAssignment.PageObjects.BasePage$$Lambda$804/0x0000000800eb0f20@5696d024 (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:265)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at multibank.DaminiSinghAssignment.PageObjects.BasePage.waitForVisibility(BasePage.java:41)
+at multibank.DaminiSinghAssignment.PageObjects.WhyMultiLinkPage.waitForPageToLoad(WhyMultiLinkPage.java:36)
+at multibankDSTest.WhyMultiLinkPageTest.navigateToWhyMultiLink(WhyMultiLinkPageTest.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ABOUT_002_verifyTextsAgainstJson -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:multibankDSTest.WhyMultiLinkPageTest@66ea810]" started-at="2025-12-03T20:24:57 GST" name="tearDown" finished-at="2025-12-03T20:25:03 GST" duration-ms="6414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- multibankDSTest.WhyMultiLinkPageTest -->
+      <class name="multibankDSTest.SpotSectionTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:multibankDSTest.SpotSectionTest@14dd7b39]" started-at="2025-12-03T20:28:19 GST" name="setUp" finished-at="2025-12-03T20:28:44 GST" duration-ms="24601" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:multibankDSTest.SpotSectionTest@14dd7b39]" started-at="2025-12-03T20:28:44 GST" name="initPage" finished-at="2025-12-03T20:28:44 GST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="verifySpotCategoriesHaveTradingPairs()[pri:1, instance:multibankDSTest.SpotSectionTest@14dd7b39]" started-at="2025-12-03T20:28:44 GST" name="verifySpotCategoriesHaveTradingPairs" description="SPOT-001: Verify each Spot category has at least one trading pair" finished-at="2025-12-03T20:29:02 GST" duration-ms="18718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySpotCategoriesHaveTradingPairs -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:multibankDSTest.SpotSectionTest@14dd7b39]" started-at="2025-12-03T20:29:02 GST" name="tearDown" finished-at="2025-12-03T20:29:05 GST" duration-ms="2398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:multibankDSTest.SpotSectionTest@14dd7b39]" started-at="2025-12-03T20:29:05 GST" name="setUp" finished-at="2025-12-03T20:29:19 GST" duration-ms="14099" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:multibankDSTest.SpotSectionTest@14dd7b39]" started-at="2025-12-03T20:29:19 GST" name="initPage" finished-at="2025-12-03T20:29:19 GST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="verifySpotTableStructureAndData()[pri:2, instance:multibankDSTest.SpotSectionTest@14dd7b39]" started-at="2025-12-03T20:29:19 GST" name="verifySpotTableStructureAndData" description="SPOT-002: Validate Spot table structure and data" finished-at="2025-12-03T20:29:24 GST" duration-ms="4719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySpotTableStructureAndData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:multibankDSTest.SpotSectionTest@14dd7b39]" started-at="2025-12-03T20:29:24 GST" name="tearDown" finished-at="2025-12-03T20:29:26 GST" duration-ms="1999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:multibankDSTest.SpotSectionTest@14dd7b39]" started-at="2025-12-03T20:29:26 GST" name="setUp" finished-at="2025-12-03T20:29:38 GST" duration-ms="12664" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:multibankDSTest.SpotSectionTest@14dd7b39]" started-at="2025-12-03T20:29:38 GST" name="initPage" finished-at="2025-12-03T20:29:38 GST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="verifySpotHeaderValidationFailsForWrongSpec()[pri:3, instance:multibankDSTest.SpotSectionTest@14dd7b39]" started-at="2025-12-03T20:29:38 GST" name="verifySpotHeaderValidationFailsForWrongSpec" description="Negative: header validation should fail for wrong spec" finished-at="2025-12-03T20:29:39 GST" duration-ms="741" status="PASS">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Validation should fail for incorrect header spec but it passed. expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Validation should fail for incorrect header spec but it passed. expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at multibankDSTest.SpotSectionTest.verifySpotHeaderValidationFailsForWrongSpec(SpotSectionTest.java:142)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySpotHeaderValidationFailsForWrongSpec -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:multibankDSTest.SpotSectionTest@14dd7b39]" started-at="2025-12-03T20:29:39 GST" name="tearDown" finished-at="2025-12-03T20:29:42 GST" duration-ms="2695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- multibankDSTest.SpotSectionTest -->
+      <class name="multibankDSTest.HomePageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:multibankDSTest.HomePageTest@2d0399f4]" started-at="2025-12-03T20:25:03 GST" name="setUp" finished-at="2025-12-03T20:25:31 GST" duration-ms="28022" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:multibankDSTest.HomePageTest@2d0399f4]" started-at="2025-12-03T20:25:31 GST" name="initPage" finished-at="2025-12-03T20:25:31 GST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="APP_001_AppleAppStoreLink_NavigatesToCorrectPage()[pri:0, instance:multibankDSTest.HomePageTest@2d0399f4]" started-at="2025-12-03T20:25:31 GST" name="APP_001_AppleAppStoreLink_NavigatesToCorrectPage" finished-at="2025-12-03T20:25:40 GST" duration-ms="8971" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Apple Store URL does not look correct: about:blank expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Apple Store URL does not look correct: about:blank expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at multibankDSTest.HomePageTest.APP_001_AppleAppStoreLink_NavigatesToCorrectPage(HomePageTest.java:122)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APP_001_AppleAppStoreLink_NavigatesToCorrectPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:multibankDSTest.HomePageTest@2d0399f4]" started-at="2025-12-03T20:25:40 GST" name="tearDown" finished-at="2025-12-03T20:25:45 GST" duration-ms="4256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:multibankDSTest.HomePageTest@2d0399f4]" started-at="2025-12-03T20:25:45 GST" name="setUp" finished-at="2025-12-03T20:26:10 GST" duration-ms="25538" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:multibankDSTest.HomePageTest@2d0399f4]" started-at="2025-12-03T20:26:10 GST" name="initPage" finished-at="2025-12-03T20:26:10 GST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="APP_002_GooglePlayLink_NavigatesToCorrectPage()[pri:0, instance:multibankDSTest.HomePageTest@2d0399f4]" started-at="2025-12-03T20:26:10 GST" name="APP_002_GooglePlayLink_NavigatesToCorrectPage" finished-at="2025-12-03T20:26:17 GST" duration-ms="7235" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Google Play URL does not look correct: about:blank expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Google Play URL does not look correct: about:blank expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at multibankDSTest.HomePageTest.APP_002_GooglePlayLink_NavigatesToCorrectPage(HomePageTest.java:149)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APP_002_GooglePlayLink_NavigatesToCorrectPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:multibankDSTest.HomePageTest@2d0399f4]" started-at="2025-12-03T20:26:18 GST" name="tearDown" finished-at="2025-12-03T20:26:21 GST" duration-ms="3317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:multibankDSTest.HomePageTest@2d0399f4]" started-at="2025-12-03T20:26:21 GST" name="setUp" finished-at="2025-12-03T20:26:43 GST" duration-ms="22332" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:multibankDSTest.HomePageTest@2d0399f4]" started-at="2025-12-03T20:26:43 GST" name="initPage" finished-at="2025-12-03T20:26:43 GST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="FOOT_001_MarketBanner_VisibleAndHasTexts()[pri:0, instance:multibankDSTest.HomePageTest@2d0399f4]" started-at="2025-12-03T20:26:43 GST" name="FOOT_001_MarketBanner_VisibleAndHasTexts" finished-at="2025-12-03T20:26:55 GST" duration-ms="12187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FOOT_001_MarketBanner_VisibleAndHasTexts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:multibankDSTest.HomePageTest@2d0399f4]" started-at="2025-12-03T20:26:55 GST" name="tearDown" finished-at="2025-12-03T20:26:59 GST" duration-ms="3044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:multibankDSTest.HomePageTest@2d0399f4]" started-at="2025-12-03T20:26:59 GST" name="setUp" finished-at="2025-12-03T20:27:22 GST" duration-ms="23911" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:multibankDSTest.HomePageTest@2d0399f4]" started-at="2025-12-03T20:27:22 GST" name="initPage" finished-at="2025-12-03T20:27:22 GST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="NAV_001_TopNavigation_HeaderAndNavVisible()[pri:0, instance:multibankDSTest.HomePageTest@2d0399f4]" started-at="2025-12-03T20:27:22 GST" name="NAV_001_TopNavigation_HeaderAndNavVisible" finished-at="2025-12-03T20:27:26 GST" duration-ms="3303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NAV_001_TopNavigation_HeaderAndNavVisible -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:multibankDSTest.HomePageTest@2d0399f4]" started-at="2025-12-03T20:27:26 GST" name="tearDown" finished-at="2025-12-03T20:27:30 GST" duration-ms="3910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:multibankDSTest.HomePageTest@2d0399f4]" started-at="2025-12-03T20:27:30 GST" name="setUp" finished-at="2025-12-03T20:27:50 GST" duration-ms="19844" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:multibankDSTest.HomePageTest@2d0399f4]" started-at="2025-12-03T20:27:50 GST" name="initPage" finished-at="2025-12-03T20:27:50 GST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="NAV_002_TopNavigation_HoverAndHrefMapping()[pri:0, instance:multibankDSTest.HomePageTest@2d0399f4]" started-at="2025-12-03T20:27:50 GST" name="NAV_002_TopNavigation_HoverAndHrefMapping" finished-at="2025-12-03T20:27:51 GST" duration-ms="1500" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Href is null for menu: Trade expected object to not be null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Href is null for menu: Trade expected object to not be null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.assertNotNull(Assert.java:1496)
+at multibankDSTest.HomePageTest.NAV_002_TopNavigation_HoverAndHrefMapping(HomePageTest.java:81)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NAV_002_TopNavigation_HoverAndHrefMapping -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:multibankDSTest.HomePageTest@2d0399f4]" started-at="2025-12-03T20:27:52 GST" name="tearDown" finished-at="2025-12-03T20:27:55 GST" duration-ms="3509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:multibankDSTest.HomePageTest@2d0399f4]" started-at="2025-12-03T20:27:55 GST" name="setUp" finished-at="2025-12-03T20:28:15 GST" duration-ms="19931" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:multibankDSTest.HomePageTest@2d0399f4]" started-at="2025-12-03T20:28:15 GST" name="initPage" finished-at="2025-12-03T20:28:15 GST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="RETRY_001_demoRetryOnTransientFailure()[pri:0, instance:multibankDSTest.HomePageTest@2d0399f4]" started-at="2025-12-03T20:28:15 GST" name="RETRY_001_demoRetryOnTransientFailure" description="RETRY-001 demo: flaky-style test with retry" finished-at="2025-12-03T20:28:15 GST" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RETRY_001_demoRetryOnTransientFailure -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:multibankDSTest.HomePageTest@2d0399f4]" started-at="2025-12-03T20:28:15 GST" name="tearDown" finished-at="2025-12-03T20:28:19 GST" duration-ms="3630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- multibankDSTest.HomePageTest -->
+    </test> <!-- Firefox_AllTests -->
+  </suite> <!-- XBR-001 CrossBrowser Full Suite -->
+</testng-results>

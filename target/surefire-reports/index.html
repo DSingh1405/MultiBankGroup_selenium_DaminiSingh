@@ -1,0 +1,1184 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-XBR_001_CrossBrowser_Full_Suite" class="navigator-link">
+              <span class="suite-name border-failed">XBR-001 CrossBrowser Full Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-XBR_001_CrossBrowser_Full_Suite" class="navigator-link ">
+                    <span>C:\Users\Damin\eclipse-workspace\DaminiSinghAssignment\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-XBR_001_CrossBrowser_Full_Suite" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-XBR_001_CrossBrowser_Full_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-XBR_001_CrossBrowser_Full_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-XBR_001_CrossBrowser_Full_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-XBR_001_CrossBrowser_Full_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-XBR_001_CrossBrowser_Full_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">23 methods, 4 failed,  5 skipped,  14 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-XBR_001_CrossBrowser_Full_Suite" class="hide-methods failed suite-XBR_001_CrossBrowser_Full_Suite"> (hide)</a> <!-- hide-methods failed suite-XBR_001_CrossBrowser_Full_Suite -->
+                      <a href="#" panel-name="suite-XBR_001_CrossBrowser_Full_Suite" class="show-methods failed suite-XBR_001_CrossBrowser_Full_Suite"> (show)</a> <!-- show-methods failed suite-XBR_001_CrossBrowser_Full_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-XBR_001_CrossBrowser_Full_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-XBR_001_CrossBrowser_Full_Suite" title="multibankDSTest.HomePageTest" class="method navigator-link" hash-for-method="APP_001_AppleAppStoreLink_NavigatesToCorrectPage">APP_001_AppleAppStoreLink_NavigatesToCorrectPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-XBR_001_CrossBrowser_Full_Suite" title="multibankDSTest.HomePageTest" class="method navigator-link" hash-for-method="APP_002_GooglePlayLink_NavigatesToCorrectPage">APP_002_GooglePlayLink_NavigatesToCorrectPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-XBR_001_CrossBrowser_Full_Suite" title="multibankDSTest.HomePageTest" class="method navigator-link" hash-for-method="NAV_002_TopNavigation_HoverAndHrefMapping">NAV_002_TopNavigation_HoverAndHrefMapping</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-XBR_001_CrossBrowser_Full_Suite" title="multibankDSTest.HomePageTest" class="method navigator-link" hash-for-method="NAV_002_TopNavigation_HoverAndHrefMapping">NAV_002_TopNavigation_HoverAndHrefMapping</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-XBR_001_CrossBrowser_Full_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-XBR_001_CrossBrowser_Full_Suite" class="hide-methods skipped suite-XBR_001_CrossBrowser_Full_Suite"> (hide)</a> <!-- hide-methods skipped suite-XBR_001_CrossBrowser_Full_Suite -->
+                      <a href="#" panel-name="suite-XBR_001_CrossBrowser_Full_Suite" class="show-methods skipped suite-XBR_001_CrossBrowser_Full_Suite"> (show)</a> <!-- show-methods skipped suite-XBR_001_CrossBrowser_Full_Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-XBR_001_CrossBrowser_Full_Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-XBR_001_CrossBrowser_Full_Suite" title="multibankDSTest.WhyMultiLinkPageTest" class="method navigator-link" hash-for-method="ABOUT_001_verifyAllComponentsVisible">ABOUT_001_verifyAllComponentsVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-XBR_001_CrossBrowser_Full_Suite" title="multibankDSTest.WhyMultiLinkPageTest" class="method navigator-link" hash-for-method="ABOUT_001_verifyAllComponentsVisible">ABOUT_001_verifyAllComponentsVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-XBR_001_CrossBrowser_Full_Suite" title="multibankDSTest.WhyMultiLinkPageTest" class="method navigator-link" hash-for-method="ABOUT_002_verifyTextsAgainstJson">ABOUT_002_verifyTextsAgainstJson</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-XBR_001_CrossBrowser_Full_Suite" title="multibankDSTest.WhyMultiLinkPageTest" class="method navigator-link" hash-for-method="ABOUT_002_verifyTextsAgainstJson">ABOUT_002_verifyTextsAgainstJson</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-XBR_001_CrossBrowser_Full_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Retried methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-XBR_001_CrossBrowser_Full_Suite" class="hide-methods skipped suite-XBR_001_CrossBrowser_Full_Suite"> (hide)</a> <!-- hide-methods skipped suite-XBR_001_CrossBrowser_Full_Suite -->
+                      <a href="#" panel-name="suite-XBR_001_CrossBrowser_Full_Suite" class="show-methods skipped suite-XBR_001_CrossBrowser_Full_Suite"> (show)</a> <!-- show-methods skipped suite-XBR_001_CrossBrowser_Full_Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-XBR_001_CrossBrowser_Full_Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-XBR_001_CrossBrowser_Full_Suite" title="multibankDSTest.HomePageTest" class="method navigator-link" hash-for-method="RETRY_001_demoRetryOnTransientFailure">RETRY_001_demoRetryOnTransientFailure</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-XBR_001_CrossBrowser_Full_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-XBR_001_CrossBrowser_Full_Suite" class="hide-methods passed suite-XBR_001_CrossBrowser_Full_Suite"> (hide)</a> <!-- hide-methods passed suite-XBR_001_CrossBrowser_Full_Suite -->
+                      <a href="#" panel-name="suite-XBR_001_CrossBrowser_Full_Suite" class="show-methods passed suite-XBR_001_CrossBrowser_Full_Suite"> (show)</a> <!-- show-methods passed suite-XBR_001_CrossBrowser_Full_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-XBR_001_CrossBrowser_Full_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-XBR_001_CrossBrowser_Full_Suite" title="multibankDSTest.HomePageTest" class="method navigator-link" hash-for-method="APP_001_AppleAppStoreLink_NavigatesToCorrectPage">APP_001_AppleAppStoreLink_NavigatesToCorrectPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-XBR_001_CrossBrowser_Full_Suite" title="multibankDSTest.HomePageTest" class="method navigator-link" hash-for-method="APP_002_GooglePlayLink_NavigatesToCorrectPage">APP_002_GooglePlayLink_NavigatesToCorrectPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-XBR_001_CrossBrowser_Full_Suite" title="multibankDSTest.HomePageTest" class="method navigator-link" hash-for-method="FOOT_001_MarketBanner_VisibleAndHasTexts">FOOT_001_MarketBanner_VisibleAndHasTexts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-XBR_001_CrossBrowser_Full_Suite" title="multibankDSTest.HomePageTest" class="method navigator-link" hash-for-method="FOOT_001_MarketBanner_VisibleAndHasTexts">FOOT_001_MarketBanner_VisibleAndHasTexts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-XBR_001_CrossBrowser_Full_Suite" title="multibankDSTest.HomePageTest" class="method navigator-link" hash-for-method="NAV_001_TopNavigation_HeaderAndNavVisible">NAV_001_TopNavigation_HeaderAndNavVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-XBR_001_CrossBrowser_Full_Suite" title="multibankDSTest.HomePageTest" class="method navigator-link" hash-for-method="NAV_001_TopNavigation_HeaderAndNavVisible">NAV_001_TopNavigation_HeaderAndNavVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-XBR_001_CrossBrowser_Full_Suite" title="multibankDSTest.HomePageTest" class="method navigator-link" hash-for-method="RETRY_001_demoRetryOnTransientFailure">RETRY_001_demoRetryOnTransientFailure</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-XBR_001_CrossBrowser_Full_Suite" title="multibankDSTest.HomePageTest" class="method navigator-link" hash-for-method="RETRY_001_demoRetryOnTransientFailure">RETRY_001_demoRetryOnTransientFailure</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-XBR_001_CrossBrowser_Full_Suite" title="multibankDSTest.SpotSectionTest" class="method navigator-link" hash-for-method="verifySpotCategoriesHaveTradingPairs">verifySpotCategoriesHaveTradingPairs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-XBR_001_CrossBrowser_Full_Suite" title="multibankDSTest.SpotSectionTest" class="method navigator-link" hash-for-method="verifySpotCategoriesHaveTradingPairs">verifySpotCategoriesHaveTradingPairs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-XBR_001_CrossBrowser_Full_Suite" title="multibankDSTest.SpotSectionTest" class="method navigator-link" hash-for-method="verifySpotHeaderValidationFailsForWrongSpec">verifySpotHeaderValidationFailsForWrongSpec</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-XBR_001_CrossBrowser_Full_Suite" title="multibankDSTest.SpotSectionTest" class="method navigator-link" hash-for-method="verifySpotHeaderValidationFailsForWrongSpec">verifySpotHeaderValidationFailsForWrongSpec</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-XBR_001_CrossBrowser_Full_Suite" title="multibankDSTest.SpotSectionTest" class="method navigator-link" hash-for-method="verifySpotTableStructureAndData">verifySpotTableStructureAndData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-XBR_001_CrossBrowser_Full_Suite" title="multibankDSTest.SpotSectionTest" class="method navigator-link" hash-for-method="verifySpotTableStructureAndData">verifySpotTableStructureAndData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-XBR_001_CrossBrowser_Full_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-XBR_001_CrossBrowser_Full_Suite" class="panel XBR_001_CrossBrowser_Full_Suite">
+          <div class="suite-XBR_001_CrossBrowser_Full_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">multibankDSTest.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="APP_001_AppleAppStoreLink_NavigatesToCorrectPage">
+                  </a> <!-- APP_001_AppleAppStoreLink_NavigatesToCorrectPage -->
+                  <span class="method-name">APP_001_AppleAppStoreLink_NavigatesToCorrectPage</span>
+                  <div class="stack-trace">java.lang.AssertionError: Apple Store URL does not look correct: about:blank expected [true] but found [false]
+	at multibankDSTest.HomePageTest.APP_001_AppleAppStoreLink_NavigatesToCorrectPage(HomePageTest.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="APP_002_GooglePlayLink_NavigatesToCorrectPage">
+                  </a> <!-- APP_002_GooglePlayLink_NavigatesToCorrectPage -->
+                  <span class="method-name">APP_002_GooglePlayLink_NavigatesToCorrectPage</span>
+                  <div class="stack-trace">java.lang.AssertionError: Google Play URL does not look correct: about:blank expected [true] but found [false]
+	at multibankDSTest.HomePageTest.APP_002_GooglePlayLink_NavigatesToCorrectPage(HomePageTest.java:149)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="NAV_002_TopNavigation_HoverAndHrefMapping">
+                  </a> <!-- NAV_002_TopNavigation_HoverAndHrefMapping -->
+                  <span class="method-name">NAV_002_TopNavigation_HoverAndHrefMapping</span>
+                  <div class="stack-trace">java.lang.AssertionError: Href is null for menu: Trade expected object to not be null
+	at multibankDSTest.HomePageTest.NAV_002_TopNavigation_HoverAndHrefMapping(HomePageTest.java:81)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 19 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="NAV_002_TopNavigation_HoverAndHrefMapping">
+                  </a> <!-- NAV_002_TopNavigation_HoverAndHrefMapping -->
+                  <span class="method-name">NAV_002_TopNavigation_HoverAndHrefMapping</span>
+                  <div class="stack-trace">java.lang.AssertionError: Href is null for menu: Trade expected object to not be null
+	at multibankDSTest.HomePageTest.NAV_002_TopNavigation_HoverAndHrefMapping(HomePageTest.java:81)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 19 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-XBR_001_CrossBrowser_Full_Suite-class-failed -->
+          <div class="suite-XBR_001_CrossBrowser_Full_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">multibankDSTest.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="RETRY_001_demoRetryOnTransientFailure">
+                  </a> <!-- RETRY_001_demoRetryOnTransientFailure -->
+                  <span class="method-name">RETRY_001_demoRetryOnTransientFailure</span>
+                  <div class="stack-trace">java.lang.AssertionError: Simulated transient wait/timing failure on first run.
+	at multibankDSTest.HomePageTest.RETRY_001_demoRetryOnTransientFailure(HomePageTest.java:43)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(RETRY-001 demo: flaky-style test with retry)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-XBR_001_CrossBrowser_Full_Suite-class-skipped -->
+          <div class="suite-XBR_001_CrossBrowser_Full_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">multibankDSTest.WhyMultiLinkPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ABOUT_001_verifyAllComponentsVisible">
+                  </a> <!-- ABOUT_001_verifyAllComponentsVisible -->
+                  <span class="method-name">ABOUT_001_verifyAllComponentsVisible</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for multibank.DaminiSinghAssignment.PageObjects.BasePage$$Lambda$804/0x0000000800eb0f20@5deba865 (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.38.0&apos;, revision: &apos;6b412e825c*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:265)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at multibank.DaminiSinghAssignment.PageObjects.BasePage.waitForVisibility(BasePage.java:41)
+	at multibank.DaminiSinghAssignment.PageObjects.WhyMultiLinkPage.waitForPageToLoad(WhyMultiLinkPage.java:36)
+	at multibankDSTest.WhyMultiLinkPageTest.navigateToWhyMultiLink(WhyMultiLinkPageTest.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ABOUT_001_verifyAllComponentsVisible">
+                  </a> <!-- ABOUT_001_verifyAllComponentsVisible -->
+                  <span class="method-name">ABOUT_001_verifyAllComponentsVisible</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for multibank.DaminiSinghAssignment.PageObjects.BasePage$$Lambda$804/0x0000000800eb0f20@67bbace1 (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.38.0&apos;, revision: &apos;6b412e825c*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:265)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at multibank.DaminiSinghAssignment.PageObjects.BasePage.waitForVisibility(BasePage.java:41)
+	at multibank.DaminiSinghAssignment.PageObjects.WhyMultiLinkPage.waitForPageToLoad(WhyMultiLinkPage.java:36)
+	at multibankDSTest.WhyMultiLinkPageTest.navigateToWhyMultiLink(WhyMultiLinkPageTest.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ABOUT_002_verifyTextsAgainstJson">
+                  </a> <!-- ABOUT_002_verifyTextsAgainstJson -->
+                  <span class="method-name">ABOUT_002_verifyTextsAgainstJson</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for multibank.DaminiSinghAssignment.PageObjects.BasePage$$Lambda$804/0x0000000800eb0f20@5deba865 (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.38.0&apos;, revision: &apos;6b412e825c*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:265)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at multibank.DaminiSinghAssignment.PageObjects.BasePage.waitForVisibility(BasePage.java:41)
+	at multibank.DaminiSinghAssignment.PageObjects.WhyMultiLinkPage.waitForPageToLoad(WhyMultiLinkPage.java:36)
+	at multibankDSTest.WhyMultiLinkPageTest.navigateToWhyMultiLink(WhyMultiLinkPageTest.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ABOUT_002_verifyTextsAgainstJson">
+                  </a> <!-- ABOUT_002_verifyTextsAgainstJson -->
+                  <span class="method-name">ABOUT_002_verifyTextsAgainstJson</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for multibank.DaminiSinghAssignment.PageObjects.BasePage$$Lambda$804/0x0000000800eb0f20@5696d024 (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.38.0&apos;, revision: &apos;6b412e825c*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:265)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at multibank.DaminiSinghAssignment.PageObjects.BasePage.waitForVisibility(BasePage.java:41)
+	at multibank.DaminiSinghAssignment.PageObjects.WhyMultiLinkPage.waitForPageToLoad(WhyMultiLinkPage.java:36)
+	at multibankDSTest.WhyMultiLinkPageTest.navigateToWhyMultiLink(WhyMultiLinkPageTest.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-XBR_001_CrossBrowser_Full_Suite-class-skipped -->
+          <div class="suite-XBR_001_CrossBrowser_Full_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">multibankDSTest.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="APP_001_AppleAppStoreLink_NavigatesToCorrectPage">
+                  </a> <!-- APP_001_AppleAppStoreLink_NavigatesToCorrectPage -->
+                  <span class="method-name">APP_001_AppleAppStoreLink_NavigatesToCorrectPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="APP_002_GooglePlayLink_NavigatesToCorrectPage">
+                  </a> <!-- APP_002_GooglePlayLink_NavigatesToCorrectPage -->
+                  <span class="method-name">APP_002_GooglePlayLink_NavigatesToCorrectPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FOOT_001_MarketBanner_VisibleAndHasTexts">
+                  </a> <!-- FOOT_001_MarketBanner_VisibleAndHasTexts -->
+                  <span class="method-name">FOOT_001_MarketBanner_VisibleAndHasTexts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FOOT_001_MarketBanner_VisibleAndHasTexts">
+                  </a> <!-- FOOT_001_MarketBanner_VisibleAndHasTexts -->
+                  <span class="method-name">FOOT_001_MarketBanner_VisibleAndHasTexts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="NAV_001_TopNavigation_HeaderAndNavVisible">
+                  </a> <!-- NAV_001_TopNavigation_HeaderAndNavVisible -->
+                  <span class="method-name">NAV_001_TopNavigation_HeaderAndNavVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="NAV_001_TopNavigation_HeaderAndNavVisible">
+                  </a> <!-- NAV_001_TopNavigation_HeaderAndNavVisible -->
+                  <span class="method-name">NAV_001_TopNavigation_HeaderAndNavVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RETRY_001_demoRetryOnTransientFailure">
+                  </a> <!-- RETRY_001_demoRetryOnTransientFailure -->
+                  <span class="method-name">RETRY_001_demoRetryOnTransientFailure</span>
+                  <em>
+(RETRY-001 demo: flaky-style test with retry)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RETRY_001_demoRetryOnTransientFailure">
+                  </a> <!-- RETRY_001_demoRetryOnTransientFailure -->
+                  <span class="method-name">RETRY_001_demoRetryOnTransientFailure</span>
+                  <em>
+(RETRY-001 demo: flaky-style test with retry)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-XBR_001_CrossBrowser_Full_Suite-class-passed -->
+          <div class="suite-XBR_001_CrossBrowser_Full_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">multibankDSTest.SpotSectionTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySpotCategoriesHaveTradingPairs">
+                  </a> <!-- verifySpotCategoriesHaveTradingPairs -->
+                  <span class="method-name">verifySpotCategoriesHaveTradingPairs</span>
+                  <em>
+(SPOT-001: Verify each Spot category has at least one trading pair)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySpotCategoriesHaveTradingPairs">
+                  </a> <!-- verifySpotCategoriesHaveTradingPairs -->
+                  <span class="method-name">verifySpotCategoriesHaveTradingPairs</span>
+                  <em>
+(SPOT-001: Verify each Spot category has at least one trading pair)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySpotHeaderValidationFailsForWrongSpec">
+                  </a> <!-- verifySpotHeaderValidationFailsForWrongSpec -->
+                  <span class="method-name">verifySpotHeaderValidationFailsForWrongSpec</span>
+                  <em>
+(Negative: header validation should fail for wrong spec)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySpotHeaderValidationFailsForWrongSpec">
+                  </a> <!-- verifySpotHeaderValidationFailsForWrongSpec -->
+                  <span class="method-name">verifySpotHeaderValidationFailsForWrongSpec</span>
+                  <em>
+(Negative: header validation should fail for wrong spec)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySpotTableStructureAndData">
+                  </a> <!-- verifySpotTableStructureAndData -->
+                  <span class="method-name">verifySpotTableStructureAndData</span>
+                  <em>
+(SPOT-002: Validate Spot table structure and data)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySpotTableStructureAndData">
+                  </a> <!-- verifySpotTableStructureAndData -->
+                  <span class="method-name">verifySpotTableStructureAndData</span>
+                  <em>
+(SPOT-002: Validate Spot table structure and data)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-XBR_001_CrossBrowser_Full_Suite-class-passed -->
+        </div> <!-- panel XBR_001_CrossBrowser_Full_Suite -->
+        <div panel-name="test-xml-XBR_001_CrossBrowser_Full_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Damin\eclipse-workspace\DaminiSinghAssignment\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;XBR-001 CrossBrowser Full Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;multibank.DaminiSinghAssignment.Listeners.ScreenshotListener&quot;/&gt;
+    &lt;listener class-name=&quot;multibank.DaminiSinghAssignment.Listeners.ExtentTestNGListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Chrome_AllTests&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;multibankDSTest.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;multibankDSTest.SpotSectionTest&quot;/&gt;
+      &lt;class name=&quot;multibankDSTest.WhyMultiLinkPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Chrome_AllTests --&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Firefox_AllTests&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;multibankDSTest.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;multibankDSTest.SpotSectionTest&quot;/&gt;
+      &lt;class name=&quot;multibankDSTest.WhyMultiLinkPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Firefox_AllTests --&gt;
+&lt;/suite&gt; &lt;!-- XBR-001 CrossBrowser Full Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-XBR_001_CrossBrowser_Full_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for XBR-001 CrossBrowser Full Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Chrome_AllTests (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Firefox_AllTests (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-XBR_001_CrossBrowser_Full_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for XBR-001 CrossBrowser Full Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-XBR_001_CrossBrowser_Full_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for XBR-001 CrossBrowser Full Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_XBR_001_CrossBrowser_Full_Suite');
+function tableData_XBR_001_CrossBrowser_Full_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(23);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifySpotCategoriesHaveTradingPairs')
+data.setCell(0, 2, 'multibankDSTest.SpotSectionTest')
+data.setCell(0, 3, 28332);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifySpotCategoriesHaveTradingPairs')
+data.setCell(1, 2, 'multibankDSTest.SpotSectionTest')
+data.setCell(1, 3, 18718);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'FOOT_001_MarketBanner_VisibleAndHasTexts')
+data.setCell(2, 2, 'multibankDSTest.HomePageTest')
+data.setCell(2, 3, 12187);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'APP_002_GooglePlayLink_NavigatesToCorrectPage')
+data.setCell(3, 2, 'multibankDSTest.HomePageTest')
+data.setCell(3, 3, 9246);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'APP_001_AppleAppStoreLink_NavigatesToCorrectPage')
+data.setCell(4, 2, 'multibankDSTest.HomePageTest')
+data.setCell(4, 3, 8971);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'NAV_002_TopNavigation_HoverAndHrefMapping')
+data.setCell(5, 2, 'multibankDSTest.HomePageTest')
+data.setCell(5, 3, 7445);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'APP_002_GooglePlayLink_NavigatesToCorrectPage')
+data.setCell(6, 2, 'multibankDSTest.HomePageTest')
+data.setCell(6, 3, 7235);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'FOOT_001_MarketBanner_VisibleAndHasTexts')
+data.setCell(7, 2, 'multibankDSTest.HomePageTest')
+data.setCell(7, 3, 7023);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifySpotTableStructureAndData')
+data.setCell(8, 2, 'multibankDSTest.SpotSectionTest')
+data.setCell(8, 3, 5494);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'APP_001_AppleAppStoreLink_NavigatesToCorrectPage')
+data.setCell(9, 2, 'multibankDSTest.HomePageTest')
+data.setCell(9, 3, 4770);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifySpotTableStructureAndData')
+data.setCell(10, 2, 'multibankDSTest.SpotSectionTest')
+data.setCell(10, 3, 4719);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'NAV_001_TopNavigation_HeaderAndNavVisible')
+data.setCell(11, 2, 'multibankDSTest.HomePageTest')
+data.setCell(11, 3, 3303);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifySpotHeaderValidationFailsForWrongSpec')
+data.setCell(12, 2, 'multibankDSTest.SpotSectionTest')
+data.setCell(12, 3, 1834);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'RETRY_001_demoRetryOnTransientFailure')
+data.setCell(13, 2, 'multibankDSTest.HomePageTest')
+data.setCell(13, 3, 1637);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'NAV_002_TopNavigation_HoverAndHrefMapping')
+data.setCell(14, 2, 'multibankDSTest.HomePageTest')
+data.setCell(14, 3, 1500);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'NAV_001_TopNavigation_HeaderAndNavVisible')
+data.setCell(15, 2, 'multibankDSTest.HomePageTest')
+data.setCell(15, 3, 1199);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifySpotHeaderValidationFailsForWrongSpec')
+data.setCell(16, 2, 'multibankDSTest.SpotSectionTest')
+data.setCell(16, 3, 741);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'RETRY_001_demoRetryOnTransientFailure')
+data.setCell(17, 2, 'multibankDSTest.HomePageTest')
+data.setCell(17, 3, 245);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'RETRY_001_demoRetryOnTransientFailure')
+data.setCell(18, 2, 'multibankDSTest.HomePageTest')
+data.setCell(18, 3, 4);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'ABOUT_001_verifyAllComponentsVisible')
+data.setCell(19, 2, 'multibankDSTest.WhyMultiLinkPageTest')
+data.setCell(19, 3, 0);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'ABOUT_002_verifyTextsAgainstJson')
+data.setCell(20, 2, 'multibankDSTest.WhyMultiLinkPageTest')
+data.setCell(20, 3, 0);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'ABOUT_001_verifyAllComponentsVisible')
+data.setCell(21, 2, 'multibankDSTest.WhyMultiLinkPageTest')
+data.setCell(21, 3, 0);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'ABOUT_002_verifyTextsAgainstJson')
+data.setCell(22, 2, 'multibankDSTest.WhyMultiLinkPageTest')
+data.setCell(22, 3, 0);
+window.suiteTableData['XBR_001_CrossBrowser_Full_Suite']= { tableData: data, tableDiv: 'times-div-XBR_001_CrossBrowser_Full_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 minutes</span>
+              <div id="times-div-XBR_001_CrossBrowser_Full_Suite">
+              </div> <!-- times-div-XBR_001_CrossBrowser_Full_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-XBR_001_CrossBrowser_Full_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for XBR-001 CrossBrowser Full Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-XBR_001_CrossBrowser_Full_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-XBR_001_CrossBrowser_Full_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">multibankDSTest.WhyMultiLinkPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">navigateToWhyMultiLink</span>
+                <span class="method-start">23650 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">navigateToWhyMultiLink</span>
+                <span class="method-start">23847 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">66722 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">71826 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">74964 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">75815 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">navigateToWhyMultiLink</span>
+                <span class="method-start">91672 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">navigateToWhyMultiLink</span>
+                <span class="method-start">97573 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">138730 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">multibankDSTest.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">139985 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">multibankDSTest.WhyMultiLinkPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">147052 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">multibankDSTest.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">153467 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">156094 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">APP_001_AppleAppStoreLink_NavigatesToCorrectPage</span>
+                <span class="method-start">156094 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">160870 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">161563 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">176966 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">APP_002_GooglePlayLink_NavigatesToCorrectPage</span>
+                <span class="method-start">176968 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">181490 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">APP_001_AppleAppStoreLink_NavigatesToCorrectPage</span>
+                <span class="method-start">181498 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">186215 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">186888 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">190824 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">195081 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">199018 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FOOT_001_MarketBanner_VisibleAndHasTexts</span>
+                <span class="method-start">199019 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">206046 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">207045 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">220619 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">APP_002_GooglePlayLink_NavigatesToCorrectPage</span>
+                <span class="method-start">220623 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">223633 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">NAV_001_TopNavigation_HeaderAndNavVisible</span>
+                <span class="method-start">223634 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">224833 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">225311 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">228142 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">231460 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">236675 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">NAV_002_TopNavigation_HoverAndHrefMapping</span>
+                <span class="method-start">236679 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">244758 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">245606 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">253792 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FOOT_001_MarketBanner_VisibleAndHasTexts</span>
+                <span class="method-start">253794 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">261672 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RETRY_001_demoRetryOnTransientFailure</span>
+                <span class="method-start">261674 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">261682 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">262412 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">265981 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">269027 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">277852 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RETRY_001_demoRetryOnTransientFailure</span>
+                <span class="method-start">277858 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">279498 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">multibankDSTest.SpotSectionTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">280788 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">multibankDSTest.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">292938 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">NAV_001_TopNavigation_HeaderAndNavVisible</span>
+                <span class="method-start">292945 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">296250 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">multibankDSTest.SpotSectionTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">298749 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySpotCategoriesHaveTradingPairs</span>
+                <span class="method-start">298769 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">multibankDSTest.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">300160 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">320004 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">NAV_002_TopNavigation_HoverAndHrefMapping</span>
+                <span class="method-start">320009 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">322295 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">325806 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">multibankDSTest.SpotSectionTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">327104 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">327668 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">multibankDSTest.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">345737 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RETRY_001_demoRetryOnTransientFailure</span>
+                <span class="method-start">345741 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">345988 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">multibankDSTest.SpotSectionTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">348885 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySpotTableStructureAndData</span>
+                <span class="method-start">348885 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">349620 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">354381 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">354909 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">370112 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySpotHeaderValidationFailsForWrongSpec</span>
+                <span class="method-start">370118 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">371953 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">374221 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySpotCategoriesHaveTradingPairs</span>
+                <span class="method-start">374224 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">392942 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">395341 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">409440 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySpotTableStructureAndData</span>
+                <span class="method-start">409441 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">414164 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">416164 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">428829 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySpotHeaderValidationFailsForWrongSpec</span>
+                <span class="method-start">428831 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">429574 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

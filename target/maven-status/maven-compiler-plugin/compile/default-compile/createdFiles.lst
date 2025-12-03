@@ -1,0 +1,9 @@
+multibank\DaminiSinghAssignment\Utilities\FlakySimulator.class
+multibank\DaminiSinghAssignment\Utilities\TestDataLoader.class
+multibank\DaminiSinghAssignment\Utilities\TestDataLoader$1.class
+multibank\DaminiSinghAssignment\Core\DriverFactory.class
+multibank\DaminiSinghAssignment\PageObjects\WhyMultiLinkPage.class
+multibank\DaminiSinghAssignment\PageObjects\BasePage.class
+multibank\DaminiSinghAssignment\Core\DriverManager.class
+multibank\DaminiSinghAssignment\PageObjects\HomePage.class
+multibank\DaminiSinghAssignment\PageObjects\SpotSectionPage.class

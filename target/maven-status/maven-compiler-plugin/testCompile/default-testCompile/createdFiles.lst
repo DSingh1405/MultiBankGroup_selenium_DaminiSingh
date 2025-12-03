@@ -1,0 +1,8 @@
+multibankDSTest\BaseTest.class
+multibankDSTest\SpotSectionTest.class
+multibankDSTest\WhyMultiLinkPageTest.class
+multibank\DaminiSinghAssignment\Listeners\ExtentManager.class
+multibank\DaminiSinghAssignment\Listeners\RetryAnalyzer.class
+multibankDSTest\HomePageTest.class
+multibank\DaminiSinghAssignment\Listeners\ScreenshotListener.class
+multibank\DaminiSinghAssignment\Listeners\ExtentTestNGListener.class
