@@ -1,2 +1,2 @@
-# MultiBankGroup_selenium_DaminiSingh
+# MultiBankGroup_Selenium_DaminiSingh
 MultiBank Selenium Maven TestNG Assignment
