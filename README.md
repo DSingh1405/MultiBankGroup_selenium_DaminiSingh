@@ -231,9 +231,11 @@ mvn clean test
 * Email notification on failure
 
 ---
-### **Implementation Limitations & Pending Enhancements**
 
-# **Remote Execution Support (Selenium Grid / Selenoid)**
+
+# **Implementation Limitations & Pending Enhancements**
+
+ **Remote Execution Support (Selenium Grid / Selenoid)**
   - The framework is already designed to support RemoteWebDriver and can connect to Selenium Grid / Selenoid using a remote hub URL.
   - Currently, no Grid or Selenoid infrastructure is attached to this assignment.
   - Remote execution is handled in code and can be enabled instantly by providing:
@@ -244,7 +246,7 @@ Dremote=true  +  GRID_URL
 
    - For this assignment submission, execution is performed locally and on Jenkins only.
 
-# **Cross-Browser Support (Chrome / Firefox / Edge)**
+ **Cross-Browser Support (Chrome / Firefox / Edge)**
 ```
 -Dbrowser=chrome
 -Dbrowser=firefox
@@ -262,7 +264,7 @@ geckodriver ↔ Firefox marionette compatibility issue.
 mvn clean test -Dbrowser=chrome
 ```
 
-# **Email Notifications (SMTP Configuration Pending)**
+ **Email Notifications (SMTP Configuration Pending)**
   - Email reporting is included in Jenkins job configuration.
   - SMTP setup is pending because Gmail requires:
     - 2-Step Verification
