@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Chrome_AllTests</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>8/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>6/5/1</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Dec 03 19:03:24 GST 2025</td>
+<td>Started on:</td><td>Thu Dec 04 14:08:23 GST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>379 seconds (379822 ms)</td>
+<tr><td>Total time:</td><td>351 seconds (351423 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,19 +76,59 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='multibankDSTest.HomePageTest.NAV_002_TopNavigation_HoverAndHrefMapping()'><b>NAV_002_TopNavigation_HoverAndHrefMapping</b><br>Test class: multibankDSTest.HomePageTest</td>
-<td><div><pre>java.lang.AssertionError: Href is null for menu: Trade expected object to not be null
-	at multibankDSTest.HomePageTest.NAV_002_TopNavigation_HoverAndHrefMapping(HomePageTest.java:61)
+<td title='multibankDSTest.HomePageTest.RETRY_001_demoRetryOnTransientFailure()'><b>RETRY_001_demoRetryOnTransientFailure</b><br>Test class: multibankDSTest.HomePageTest<br>Test method: RETRY-001 demo: flaky-style test with retry</td>
+<td><div><pre>java.lang.AssertionError: Logo should be visible after retry. expected [true] but found [false]
+	at multibankDSTest.HomePageTest.RETRY_001_demoRetryOnTransientFailure(HomePageTest.java:82)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace289317022", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace289317022'><pre>java.lang.AssertionError: Href is null for menu: Trade expected object to not be null
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace37866947", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace37866947'><pre>java.lang.AssertionError: Logo should be visible after retry. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at multibankDSTest.HomePageTest.RETRY_001_demoRetryOnTransientFailure(HomePageTest.java:82)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>13</td>
+<td>multibankDSTest.HomePageTest@69ee81fc</td></tr>
+<tr>
+<td title='multibankDSTest.HomePageTest.NAV_002_TopNavigation_HoverAndHrefMapping()'><b>NAV_002_TopNavigation_HoverAndHrefMapping</b><br>Test class: multibankDSTest.HomePageTest</td>
+<td><div><pre>java.lang.AssertionError: Href is null for menu: Trade expected object to not be null
+	at multibankDSTest.HomePageTest.NAV_002_TopNavigation_HoverAndHrefMapping(HomePageTest.java:155)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1528995044", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1528995044'><pre>java.lang.AssertionError: Href is null for menu: Trade expected object to not be null
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.assertNotNull(Assert.java:1496)
-	at multibankDSTest.HomePageTest.NAV_002_TopNavigation_HoverAndHrefMapping(HomePageTest.java:61)
+	at multibankDSTest.HomePageTest.NAV_002_TopNavigation_HoverAndHrefMapping(HomePageTest.java:155)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -112,24 +152,27 @@ function toggleAllBoxes() {
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 </pre></div></td>
-<td>0</td>
-<td>multibankDSTest.HomePageTest@36fc695d</td></tr>
+<td>3</td>
+<td>multibankDSTest.HomePageTest@69ee81fc</td></tr>
 <tr>
 <td title='multibankDSTest.WhyMultiLinkPageTest.ABOUT_002_verifyTextsAgainstJson()'><b>ABOUT_002_verifyTextsAgainstJson</b><br>Test class: multibankDSTest.WhyMultiLinkPageTest</td>
-<td><div><pre>java.lang.AssertionError: Main card subheadings mismatch: Lists differ at element [0]: Experience lightning-fast trading speed with MultiBank io, and buy and sell Bitcoin, Ethereum and other cryptocurrencies instantly using your preferred payment method. With 40 nanosecond trading execution speed and the ability to handle 9 million+ trades a second, our user-friendly platform is perfect for both beginners and advanced traders alike != Experience lightning-fast trading speed with MultiBank io, and buy and sell Bitcoin, Ethereum and other cryptocurrencies instantly using your preferred payment method. With 40 nanosecond trading execution speed and the ability to handle 9 million+ trades a second, our user-friendly platform is perfect for both beginners and advanced traders alike. expected [Experience lightning-fast trading speed with MultiBank io, and buy and sell Bitcoin, Ethereum and other cryptocurrencies instantly using your preferred payment method. With 40 nanosecond trading execution speed and the ability to handle 9 million+ trades a second, our user-friendly platform is perfect for both beginners and advanced traders alike] but found [Experience lightning-fast trading speed with MultiBank io, and buy and sell Bitcoin, Ethereum and other cryptocurrencies instantly using your preferred payment method. With 40 nanosecond trading execution speed and the ability to handle 9 million+ trades a second, our user-friendly platform is perfect for both beginners and advanced traders alike.]
-	at multibankDSTest.WhyMultiLinkPageTest.ABOUT_002_verifyTextsAgainstJson(WhyMultiLinkPageTest.java:64)
+<td><div><pre>java.lang.AssertionError: CTA button texts mismatch: lists don&apos;t have the same size expected [8] but found [7]
+	at multibankDSTest.WhyMultiLinkPageTest.ABOUT_002_verifyTextsAgainstJson(WhyMultiLinkPageTest.java:144)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2019229058", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2019229058'><pre>java.lang.AssertionError: Main card subheadings mismatch: Lists differ at element [0]: Experience lightning-fast trading speed with MultiBank io, and buy and sell Bitcoin, Ethereum and other cryptocurrencies instantly using your preferred payment method. With 40 nanosecond trading execution speed and the ability to handle 9 million+ trades a second, our user-friendly platform is perfect for both beginners and advanced traders alike != Experience lightning-fast trading speed with MultiBank io, and buy and sell Bitcoin, Ethereum and other cryptocurrencies instantly using your preferred payment method. With 40 nanosecond trading execution speed and the ability to handle 9 million+ trades a second, our user-friendly platform is perfect for both beginners and advanced traders alike. expected [Experience lightning-fast trading speed with MultiBank io, and buy and sell Bitcoin, Ethereum and other cryptocurrencies instantly using your preferred payment method. With 40 nanosecond trading execution speed and the ability to handle 9 million+ trades a second, our user-friendly platform is perfect for both beginners and advanced traders alike] but found [Experience lightning-fast trading speed with MultiBank io, and buy and sell Bitcoin, Ethereum and other cryptocurrencies instantly using your preferred payment method. With 40 nanosecond trading execution speed and the ability to handle 9 million+ trades a second, our user-friendly platform is perfect for both beginners and advanced traders alike.]
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace637282870", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace637282870'><pre>java.lang.AssertionError: CTA button texts mismatch: lists don&apos;t have the same size expected [8] but found [7]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1590)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:1656)
-	at multibankDSTest.WhyMultiLinkPageTest.ABOUT_002_verifyTextsAgainstJson(WhyMultiLinkPageTest.java:64)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1431)
+	at org.testng.Assert.assertEquals(Assert.java:1395)
+	at org.testng.Assert.assertEquals(Assert.java:1642)
+	at multibankDSTest.WhyMultiLinkPageTest.ABOUT_002_verifyTextsAgainstJson(WhyMultiLinkPageTest.java:144)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -153,8 +196,88 @@ function toggleAllBoxes() {
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 </pre></div></td>
-<td>1</td>
-<td>multibankDSTest.WhyMultiLinkPageTest@3bf7ca37</td></tr>
+<td>11</td>
+<td>multibankDSTest.WhyMultiLinkPageTest@54e041a4</td></tr>
+<tr>
+<td title='multibankDSTest.WhyMultiLinkPageTest.ABOUT_001_verifyAllComponentsVisible()'><b>ABOUT_001_verifyAllComponentsVisible</b><br>Test class: multibankDSTest.WhyMultiLinkPageTest</td>
+<td><div><pre>java.lang.AssertionError: Some Why MultiLink components are not visible. expected [true] but found [false]
+	at multibankDSTest.WhyMultiLinkPageTest.ABOUT_001_verifyAllComponentsVisible(WhyMultiLinkPageTest.java:73)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1533458186", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1533458186'><pre>java.lang.AssertionError: Some Why MultiLink components are not visible. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at multibankDSTest.WhyMultiLinkPageTest.ABOUT_001_verifyAllComponentsVisible(WhyMultiLinkPageTest.java:73)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>35</td>
+<td>multibankDSTest.WhyMultiLinkPageTest@54e041a4</td></tr>
+<tr>
+<td title='multibankDSTest.SpotSectionTest.verifySpotTableStructureAndData()'><b>verifySpotTableStructureAndData</b><br>Test class: multibankDSTest.SpotSectionTest<br>Test method: SPOT-002: Validate Spot table structure and data</td>
+<td><div><pre>java.lang.AssertionError: Spot column headers do not match expected spec. expected [true] but found [false]
+	at multibankDSTest.SpotSectionTest.verifySpotTableStructureAndData(SpotSectionTest.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace299917166", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace299917166'><pre>java.lang.AssertionError: Spot column headers do not match expected spec. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at multibankDSTest.SpotSectionTest.verifySpotTableStructureAndData(SpotSectionTest.java:128)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>11</td>
+<td>multibankDSTest.SpotSectionTest@78fa769e</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -165,30 +288,92 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='multibankDSTest.HomePageTest.APP_002_GooglePlayLink_NavigatesToCorrectPage()'><b>APP_002_GooglePlayLink_NavigatesToCorrectPage</b><br>Test class: multibankDSTest.HomePageTest</td>
+<td></td>
+<td>11</td>
+<td>multibankDSTest.HomePageTest@69ee81fc</td></tr>
+<tr>
 <td title='multibankDSTest.SpotSectionTest.verifySpotCategoriesHaveTradingPairs()'><b>verifySpotCategoriesHaveTradingPairs</b><br>Test class: multibankDSTest.SpotSectionTest<br>Test method: SPOT-001: Verify each Spot category has at least one trading pair</td>
 <td></td>
-<td>31</td>
-<td>multibankDSTest.SpotSectionTest@3c9754d8</td></tr>
+<td>41</td>
+<td>multibankDSTest.SpotSectionTest@78fa769e</td></tr>
 <tr>
-<td title='multibankDSTest.SpotSectionTest.verifySpotTableStructureAndData()'><b>verifySpotTableStructureAndData</b><br>Test class: multibankDSTest.SpotSectionTest<br>Test method: SPOT-002: Validate Spot table structure and data</td>
+<td title='multibankDSTest.HomePageTest.FOOT_001_MarketBanner_VisibleAndHasTexts()'><b>FOOT_001_MarketBanner_VisibleAndHasTexts</b><br>Test class: multibankDSTest.HomePageTest</td>
 <td></td>
-<td>8</td>
-<td>multibankDSTest.SpotSectionTest@3c9754d8</td></tr>
+<td>5</td>
+<td>multibankDSTest.HomePageTest@69ee81fc</td></tr>
+<tr>
+<td title='multibankDSTest.HomePageTest.APP_001_AppleAppStoreLink_NavigatesToCorrectPage()'><b>APP_001_AppleAppStoreLink_NavigatesToCorrectPage</b><br>Test class: multibankDSTest.HomePageTest</td>
+<td></td>
+<td>6</td>
+<td>multibankDSTest.HomePageTest@69ee81fc</td></tr>
+<tr>
+<td title='multibankDSTest.HomePageTest.NAV_001_TopNavigation_HeaderAndNavVisible()'><b>NAV_001_TopNavigation_HeaderAndNavVisible</b><br>Test class: multibankDSTest.HomePageTest</td>
+<td></td>
+<td>2</td>
+<td>multibankDSTest.HomePageTest@69ee81fc</td></tr>
 <tr>
 <td title='multibankDSTest.SpotSectionTest.verifySpotHeaderValidationFailsForWrongSpec()'><b>verifySpotHeaderValidationFailsForWrongSpec</b><br>Test class: multibankDSTest.SpotSectionTest<br>Test method: Negative: header validation should fail for wrong spec</td>
 <td><div><pre>java.lang.AssertionError: Validation should fail for incorrect header spec but it passed. expected [true] but found [false]
-	at multibankDSTest.SpotSectionTest.verifySpotHeaderValidationFailsForWrongSpec(SpotSectionTest.java:142)
+	at multibankDSTest.SpotSectionTest.verifySpotHeaderValidationFailsForWrongSpec(SpotSectionTest.java:197)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace97463946", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace97463946'><pre>java.lang.AssertionError: Validation should fail for incorrect header spec but it passed. expected [true] but found [false]
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace435086384", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace435086384'><pre>java.lang.AssertionError: Validation should fail for incorrect header spec but it passed. expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1590)
 	at org.testng.Assert.assertTrue(Assert.java:57)
-	at multibankDSTest.SpotSectionTest.verifySpotHeaderValidationFailsForWrongSpec(SpotSectionTest.java:142)
+	at multibankDSTest.SpotSectionTest.verifySpotHeaderValidationFailsForWrongSpec(SpotSectionTest.java:197)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>2</td>
+<td>multibankDSTest.SpotSectionTest@78fa769e</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='multibankDSTest.HomePageTest.RETRY_001_demoRetryOnTransientFailure()'><b>RETRY_001_demoRetryOnTransientFailure</b><br>Test class: multibankDSTest.HomePageTest<br>Test method: RETRY-001 demo: flaky-style test with retry</td>
+<td><div><pre>java.lang.AssertionError: Simulated transient wait/timing failure on first run.
+	at multibankDSTest.HomePageTest.RETRY_001_demoRetryOnTransientFailure(HomePageTest.java:78)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2090773066", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2090773066'><pre>java.lang.AssertionError: Simulated transient wait/timing failure on first run.
+	at org.testng.Assert.fail(Assert.java:111)
+	at multibankDSTest.HomePageTest.RETRY_001_demoRetryOnTransientFailure(HomePageTest.java:78)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -213,32 +398,7 @@ function toggleAllBoxes() {
 	at java.base/java.lang.Thread.run(Thread.java:833)
 </pre></div></td>
 <td>0</td>
-<td>multibankDSTest.SpotSectionTest@3c9754d8</td></tr>
-<tr>
-<td title='multibankDSTest.HomePageTest.APP_002_GooglePlayLink_NavigatesToCorrectPage()'><b>APP_002_GooglePlayLink_NavigatesToCorrectPage</b><br>Test class: multibankDSTest.HomePageTest</td>
-<td></td>
-<td>8</td>
-<td>multibankDSTest.HomePageTest@36fc695d</td></tr>
-<tr>
-<td title='multibankDSTest.HomePageTest.APP_001_AppleAppStoreLink_NavigatesToCorrectPage()'><b>APP_001_AppleAppStoreLink_NavigatesToCorrectPage</b><br>Test class: multibankDSTest.HomePageTest</td>
-<td></td>
-<td>7</td>
-<td>multibankDSTest.HomePageTest@36fc695d</td></tr>
-<tr>
-<td title='multibankDSTest.HomePageTest.FOOT_001_MarketBanner_VisibleAndHasTexts()'><b>FOOT_001_MarketBanner_VisibleAndHasTexts</b><br>Test class: multibankDSTest.HomePageTest</td>
-<td></td>
-<td>5</td>
-<td>multibankDSTest.HomePageTest@36fc695d</td></tr>
-<tr>
-<td title='multibankDSTest.WhyMultiLinkPageTest.ABOUT_001_verifyAllComponentsVisible()'><b>ABOUT_001_verifyAllComponentsVisible</b><br>Test class: multibankDSTest.WhyMultiLinkPageTest</td>
-<td></td>
-<td>1</td>
-<td>multibankDSTest.WhyMultiLinkPageTest@3bf7ca37</td></tr>
-<tr>
-<td title='multibankDSTest.HomePageTest.NAV_001_TopNavigation_HeaderAndNavVisible()'><b>NAV_001_TopNavigation_HeaderAndNavVisible</b><br>Test class: multibankDSTest.HomePageTest</td>
-<td></td>
-<td>6</td>
-<td>multibankDSTest.HomePageTest@36fc695d</td></tr>
+<td>multibankDSTest.HomePageTest@69ee81fc</td></tr>
 </table><p>
 </body>
 </html>

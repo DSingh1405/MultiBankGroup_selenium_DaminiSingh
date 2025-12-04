@@ -8,80 +8,120 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">5</td><td class="num">0</td><td class="num attn">1</td><td class="num attn">1</td><td class="num">97,849</td><td></td><td></td></tr>
+<tr><th colspan="8">XBR-001 CrossBrowser Full Suite</th></tr>
+<tr><td><a href="#t0">Chrome_AllTests</a></td><td class="num">6</td><td class="num">0</td><td class="num attn">1</td><td class="num attn">5</td><td class="num">351,423</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Firefox_AllTests</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num attn">4</td><td class="num">392,443</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">13</th><th class="num">0</th><th class="num attn">1</th><th class="num attn">9</th><th class="num">743,866</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">multibankDSTest.HomePageTest</td><td><a href="#m0">NAV_002_TopNavigation_HoverAndHrefMapping</a></td><td rowspan="1">1764775510479</td><td rowspan="1">871</td></tr><tr><th colspan="4">Default test &#8212; retried</th></tr><tr class="retriedeven"><td rowspan="1">multibankDSTest.HomePageTest</td><td><a href="#m1">RETRY_001_demoRetryOnTransientFailure</a></td><td rowspan="1">1764775522643</td><td rowspan="1">8</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">multibankDSTest.HomePageTest</td><td><a href="#m2">APP_001_AppleAppStoreLink_NavigatesToCorrectPage</a></td><td rowspan="1">1764775450667</td><td rowspan="1">3875</td></tr><tr class="passedeven"><td><a href="#m3">APP_002_GooglePlayLink_NavigatesToCorrectPage</a></td><td rowspan="1">1764775467798</td><td rowspan="1">6254</td></tr><tr class="passedeven"><td><a href="#m4">FOOT_001_MarketBanner_VisibleAndHasTexts</a></td><td rowspan="1">1764775485533</td><td rowspan="1">1394</td></tr><tr class="passedeven"><td><a href="#m5">NAV_001_TopNavigation_HeaderAndNavVisible</a></td><td rowspan="1">1764775496079</td><td rowspan="1">3233</td></tr><tr class="passedeven"><td><a href="#m6">RETRY_001_demoRetryOnTransientFailure</a></td><td rowspan="1">1764775534471</td><td rowspan="1">395</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">XBR-001 CrossBrowser Full Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Chrome_AllTests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">multibankDSTest.HomePageTest</td><td><a href="#m0">NAV_002_TopNavigation_HoverAndHrefMapping</a></td><td rowspan="1">1764843120797</td><td rowspan="1">3125</td></tr><tr class="failedeven"><td><a href="#m1">RETRY_001_demoRetryOnTransientFailure</a></td><td rowspan="1">1764843144519</td><td rowspan="1">13446</td></tr><tr class="failedodd"><td rowspan="1">multibankDSTest.SpotSectionTest</td><td><a href="#m2">verifySpotTableStructureAndData</a></td><td rowspan="1">1764843222408</td><td rowspan="1">11037</td></tr><tr class="failedeven"><td rowspan="2">multibankDSTest.WhyMultiLinkPageTest</td><td><a href="#m3">ABOUT_001_verifyAllComponentsVisible</a></td><td rowspan="1">1764842924652</td><td rowspan="1">35659</td></tr><tr class="failedeven"><td><a href="#m4">ABOUT_002_verifyTextsAgainstJson</a></td><td rowspan="1">1764842986022</td><td rowspan="1">11672</td></tr><tr><th colspan="4">Chrome_AllTests &#8212; retried</th></tr><tr class="retriedeven"><td rowspan="1">multibankDSTest.HomePageTest</td><td><a href="#m5">RETRY_001_demoRetryOnTransientFailure</a></td><td rowspan="1">1764843139359</td><td rowspan="1">7</td></tr><tr><th colspan="4">Chrome_AllTests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">multibankDSTest.HomePageTest</td><td><a href="#m6">APP_001_AppleAppStoreLink_NavigatesToCorrectPage</a></td><td rowspan="1">1764843015291</td><td rowspan="1">6099</td></tr><tr class="passedeven"><td><a href="#m7">APP_002_GooglePlayLink_NavigatesToCorrectPage</a></td><td rowspan="1">1764843038925</td><td rowspan="1">11513</td></tr><tr class="passedeven"><td><a href="#m8">FOOT_001_MarketBanner_VisibleAndHasTexts</a></td><td rowspan="1">1764843074725</td><td rowspan="1">5972</td></tr><tr class="passedeven"><td><a href="#m9">NAV_001_TopNavigation_HeaderAndNavVisible</a></td><td rowspan="1">1764843096336</td><td rowspan="1">2508</td></tr><tr class="passedodd"><td rowspan="2">multibankDSTest.SpotSectionTest</td><td><a href="#m10">verifySpotCategoriesHaveTradingPairs</a></td><td rowspan="1">1764843174988</td><td rowspan="1">41848</td></tr><tr class="passedodd"><td><a href="#m11">verifySpotHeaderValidationFailsForWrongSpec</a></td><td rowspan="1">1764843251398</td><td rowspan="1">2176</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Firefox_AllTests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">multibankDSTest.HomePageTest</td><td><a href="#m12">APP_001_AppleAppStoreLink_NavigatesToCorrectPage</a></td><td rowspan="1">1764843014366</td><td rowspan="1">5663</td></tr><tr class="failedeven"><td><a href="#m13">APP_002_GooglePlayLink_NavigatesToCorrectPage</a></td><td rowspan="1">1764843040043</td><td rowspan="1">8237</td></tr><tr class="failedeven"><td><a href="#m14">NAV_002_TopNavigation_HoverAndHrefMapping</a></td><td rowspan="1">1764843145312</td><td rowspan="1">3889</td></tr><tr class="failedodd"><td rowspan="1">multibankDSTest.WhyMultiLinkPageTest</td><td><a href="#m15">ABOUT_001_verifyAllComponentsVisible</a></td><td rowspan="1">1764842919669</td><td rowspan="1">34563</td></tr><tr><th colspan="4">Firefox_AllTests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">multibankDSTest.HomePageTest</td><td><a href="#m16">FOOT_001_MarketBanner_VisibleAndHasTexts</a></td><td rowspan="1">1764843074957</td><td rowspan="1">18030</td></tr><tr class="passedeven"><td><a href="#m17">NAV_001_TopNavigation_HeaderAndNavVisible</a></td><td rowspan="1">1764843118942</td><td rowspan="1">2562</td></tr><tr class="passedeven"><td><a href="#m18">RETRY_001_demoRetryOnTransientFailure</a></td><td rowspan="1">1764843179024</td><td rowspan="1">1823</td></tr><tr class="passedodd"><td rowspan="3">multibankDSTest.SpotSectionTest</td><td><a href="#m19">verifySpotCategoriesHaveTradingPairs</a></td><td rowspan="1">1764843202164</td><td rowspan="1">53632</td></tr><tr class="passedodd"><td><a href="#m20">verifySpotHeaderValidationFailsForWrongSpec</a></td><td rowspan="1">1764843291934</td><td rowspan="1">743</td></tr><tr class="passedodd"><td><a href="#m21">verifySpotTableStructureAndData</a></td><td rowspan="1">1764843272756</td><td rowspan="1">4958</td></tr><tr class="passedeven"><td rowspan="1">multibankDSTest.WhyMultiLinkPageTest</td><td><a href="#m22">ABOUT_002_verifyTextsAgainstJson</a></td><td rowspan="1">1764842982365</td><td rowspan="1">12868</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">multibankDSTest.HomePageTest#NAV_002_TopNavigation_HoverAndHrefMapping</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Href is null for menu: Trade expected object to not be null
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.assertNotNull(Assert.java:1496)
-	at multibankDSTest.HomePageTest.NAV_002_TopNavigation_HoverAndHrefMapping(HomePageTest.java:81)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+<h2>Chrome_AllTests</h2><h3 id="m0">multibankDSTest.HomePageTest#NAV_002_TopNavigation_HoverAndHrefMapping</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Href is null for menu: Trade expected object to not be null
+	at multibankDSTest.HomePageTest.NAV_002_TopNavigation_HoverAndHrefMapping(HomePageTest.java:155)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">multibankDSTest.HomePageTest#RETRY_001_demoRetryOnTransientFailure</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Simulated transient wait/timing failure on first run.
-	at org.testng.Assert.fail(Assert.java:111)
-	at multibankDSTest.HomePageTest.RETRY_001_demoRetryOnTransientFailure(HomePageTest.java:43)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">multibankDSTest.HomePageTest#RETRY_001_demoRetryOnTransientFailure</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Logo should be visible after retry. expected [true] but found [false]
+	at multibankDSTest.HomePageTest.RETRY_001_demoRetryOnTransientFailure(HomePageTest.java:82)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">multibankDSTest.HomePageTest#APP_001_AppleAppStoreLink_NavigatesToCorrectPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">multibankDSTest.HomePageTest#APP_002_GooglePlayLink_NavigatesToCorrectPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">multibankDSTest.HomePageTest#FOOT_001_MarketBanner_VisibleAndHasTexts</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">multibankDSTest.HomePageTest#NAV_001_TopNavigation_HeaderAndNavVisible</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">multibankDSTest.HomePageTest#RETRY_001_demoRetryOnTransientFailure</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">multibankDSTest.SpotSectionTest#verifySpotTableStructureAndData</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Spot column headers do not match expected spec. expected [true] but found [false]
+	at multibankDSTest.SpotSectionTest.verifySpotTableStructureAndData(SpotSectionTest.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">multibankDSTest.WhyMultiLinkPageTest#ABOUT_001_verifyAllComponentsVisible</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Some Why MultiLink components are not visible. expected [true] but found [false]
+	at multibankDSTest.WhyMultiLinkPageTest.ABOUT_001_verifyAllComponentsVisible(WhyMultiLinkPageTest.java:73)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">multibankDSTest.WhyMultiLinkPageTest#ABOUT_002_verifyTextsAgainstJson</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: CTA button texts mismatch: lists don&apos;t have the same size expected [8] but found [7]
+	at multibankDSTest.WhyMultiLinkPageTest.ABOUT_002_verifyTextsAgainstJson(WhyMultiLinkPageTest.java:144)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 24 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">multibankDSTest.HomePageTest#RETRY_001_demoRetryOnTransientFailure</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Simulated transient wait/timing failure on first run.
+	at multibankDSTest.HomePageTest.RETRY_001_demoRetryOnTransientFailure(HomePageTest.java:78)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">multibankDSTest.HomePageTest#APP_001_AppleAppStoreLink_NavigatesToCorrectPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">multibankDSTest.HomePageTest#APP_002_GooglePlayLink_NavigatesToCorrectPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">multibankDSTest.HomePageTest#FOOT_001_MarketBanner_VisibleAndHasTexts</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">multibankDSTest.HomePageTest#NAV_001_TopNavigation_HeaderAndNavVisible</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">multibankDSTest.SpotSectionTest#verifySpotCategoriesHaveTradingPairs</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">multibankDSTest.SpotSectionTest#verifySpotHeaderValidationFailsForWrongSpec</h3><table class="result"><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Validation should fail for incorrect header spec but it passed. expected [true] but found [false]
+	at multibankDSTest.SpotSectionTest.verifySpotHeaderValidationFailsForWrongSpec(SpotSectionTest.java:197)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Firefox_AllTests</h2><h3 id="m12">multibankDSTest.HomePageTest#APP_001_AppleAppStoreLink_NavigatesToCorrectPage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Apple Store URL does not look correct: about:blank expected [true] but found [false]
+	at multibankDSTest.HomePageTest.APP_001_AppleAppStoreLink_NavigatesToCorrectPage(HomePageTest.java:225)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">multibankDSTest.HomePageTest#APP_002_GooglePlayLink_NavigatesToCorrectPage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Google Play URL does not look correct: about:blank expected [true] but found [false]
+	at multibankDSTest.HomePageTest.APP_002_GooglePlayLink_NavigatesToCorrectPage(HomePageTest.java:268)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">multibankDSTest.HomePageTest#NAV_002_TopNavigation_HoverAndHrefMapping</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Href is null for menu: Trade expected object to not be null
+	at multibankDSTest.HomePageTest.NAV_002_TopNavigation_HoverAndHrefMapping(HomePageTest.java:155)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">multibankDSTest.WhyMultiLinkPageTest#ABOUT_001_verifyAllComponentsVisible</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Some Why MultiLink components are not visible. expected [true] but found [false]
+	at multibankDSTest.WhyMultiLinkPageTest.ABOUT_001_verifyAllComponentsVisible(WhyMultiLinkPageTest.java:73)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">multibankDSTest.HomePageTest#FOOT_001_MarketBanner_VisibleAndHasTexts</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">multibankDSTest.HomePageTest#NAV_001_TopNavigation_HeaderAndNavVisible</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">multibankDSTest.HomePageTest#RETRY_001_demoRetryOnTransientFailure</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">multibankDSTest.SpotSectionTest#verifySpotCategoriesHaveTradingPairs</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m20">multibankDSTest.SpotSectionTest#verifySpotHeaderValidationFailsForWrongSpec</h3><table class="result"><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Validation should fail for incorrect header spec but it passed. expected [true] but found [false]
+	at multibankDSTest.SpotSectionTest.verifySpotHeaderValidationFailsForWrongSpec(SpotSectionTest.java:197)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m21">multibankDSTest.SpotSectionTest#verifySpotTableStructureAndData</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m22">multibankDSTest.WhyMultiLinkPageTest#ABOUT_002_verifyTextsAgainstJson</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

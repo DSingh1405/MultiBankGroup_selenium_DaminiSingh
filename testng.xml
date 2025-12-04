@@ -1,27 +1,66 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<!--
+    XBR-001 CrossBrowser Full Suite
+    This TestNG suite executes the entire UI automation suite in parallel
+    across multiple browsers (Chrome + Firefox).
+
+    Key Features:
+    • parallel="tests"  → each <test> tag runs in its own thread
+    • thread-count="3" → max three parallel threads
+    • integrates ScreenshotListener + ExtentTestNGListener
+    • browser parameter injected into BaseTest → DriverFactory selects driver
+-->
+
 <suite name="XBR-001 CrossBrowser Full Suite"
        parallel="tests"
        thread-count="3">
 
+    <!-- ===============================
+         GLOBAL LISTENERS
+         ===============================
+         ScreenshotListener → captures screenshot on failure
+         ExtentTestNGListener → generates Extent Report per test run
+    -->
     <listeners>
         <listener class-name="multibank.DaminiSinghAssignment.Listeners.ScreenshotListener"/>
         <listener class-name="multibank.DaminiSinghAssignment.Listeners.ExtentTestNGListener"/>
     </listeners>
 
-    <!-- ============ CHROME ============ -->
+
+    <!-- ==========================================================
+         BROWSER BLOCK #1 – CHROME
+         ==========================================================
+         Each <test> section runs independently and in parallel
+         • browser="chrome" injected into BaseTest.setUp()
+         • executes all test classes listed under <classes>
+    -->
     <test name="Chrome_AllTests">
         <parameter name="browser" value="chrome"/>
+
         <classes>
+            <!-- Homepage navigation, banners, app store tests -->
             <class name="multibankDSTest.HomePageTest"/>
+
+            <!-- Spot section – categories, table validations -->
             <class name="multibankDSTest.SpotSectionTest"/>
+
+            <!-- Why Multibank – content validation, JSON comparison -->
             <class name="multibankDSTest.WhyMultiLinkPageTest"/>
-            <!-- add more test classes here -->
+
+            <!-- Add additional test modules here -->
         </classes>
     </test>
 
-    <!-- ============ FIREFOX ============ -->
+
+    <!-- ==========================================================
+         BROWSER BLOCK #2 – FIREFOX
+         ==========================================================
+         • Same test set executed in Firefox
+         • Ensures cross-browser compatibility per assignment requirement
+    -->
     <test name="Firefox_AllTests">
         <parameter name="browser" value="firefox"/>
+
         <classes>
             <class name="multibankDSTest.HomePageTest"/>
             <class name="multibankDSTest.SpotSectionTest"/>

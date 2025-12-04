@@ -3,6 +3,7 @@
 <suite thread-count="3" parallel="tests" name="Failed suite [XBR-001 CrossBrowser Full Suite]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="multibank.DaminiSinghAssignment.Listeners.ScreenshotListener"/>
+    <listener class-name="multibank.DaminiSinghAssignment.Listeners.ExtentTestNGListener"/>
   </listeners>
   <test thread-count="3" parallel="tests" name="Chrome_AllTests(failed)">
     <parameter name="browser" value="chrome"/>
@@ -12,6 +13,7 @@
           <include name="tearDown"/>
           <include name="ABOUT_002_verifyTextsAgainstJson"/>
           <include name="setUp"/>
+          <include name="ABOUT_001_verifyAllComponentsVisible"/>
           <include name="navigateToWhyMultiLink"/>
         </methods>
       </class> <!-- multibankDSTest.WhyMultiLinkPageTest -->
@@ -19,10 +21,19 @@
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="RETRY_001_demoRetryOnTransientFailure"/>
           <include name="NAV_002_TopNavigation_HoverAndHrefMapping"/>
           <include name="initPage"/>
         </methods>
       </class> <!-- multibankDSTest.HomePageTest -->
+      <class name="multibankDSTest.SpotSectionTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verifySpotTableStructureAndData"/>
+          <include name="initPage"/>
+        </methods>
+      </class> <!-- multibankDSTest.SpotSectionTest -->
     </classes>
   </test> <!-- Chrome_AllTests(failed) -->
   <test thread-count="3" parallel="tests" name="Firefox_AllTests(failed)">
@@ -31,8 +42,8 @@
       <class name="multibankDSTest.WhyMultiLinkPageTest">
         <methods>
           <include name="tearDown"/>
-          <include name="ABOUT_002_verifyTextsAgainstJson"/>
           <include name="setUp"/>
+          <include name="ABOUT_001_verifyAllComponentsVisible"/>
           <include name="navigateToWhyMultiLink"/>
         </methods>
       </class> <!-- multibankDSTest.WhyMultiLinkPageTest -->
