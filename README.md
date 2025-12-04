@@ -69,7 +69,8 @@ Includes coverage for:
 ---
 
 # **Project Structure**
-<img width="404" height="649" alt="image" src="https://github.com/user-attachments/assets/df81a22b-2c1c-41d3-95db-a3dfe6d99384" />
+<img width="396" height="703" alt="Screenshot of Project Structure_updated" src="https://github.com/user-attachments/assets/fb1015c8-b70e-43eb-85bc-d79719b6e76a" />
+
 
 # **Prerequisites**
 
@@ -119,7 +120,7 @@ mvn clean test -Dbrowser=firefox
 
 # **Tests Included**
 
-### ### **Home Page Tests**
+### **Home Page Tests**
 
 * Verify top navigation menu
 * Verify context menus (Spot, Instant Buy, Panic Sell)
@@ -183,33 +184,33 @@ Automatically archived as build artifacts.
 
 ---
 
-# **Design Patterns Used**
+### **Design Patterns Used**
 
-### Page Object Model (POM)
+## Page Object Model (POM)
 
-### Factory Pattern (DriverFactory)
+## Factory Pattern (DriverFactory)
 
-### Singleton WebDriver Management *(optional setup)*
+## Singleton WebDriver Management *(optional setup)*
 
-### Utility Classes for Waits & Extractors
+## Utility Classes for Waits & Extractors
 
-### Base Test Class for setup/teardown
+## Base Test Class for setup/teardown
 
-### Action Methods for business logic
+## Action Methods for business logic
 
 ---
 
-# **Jenkins CI Setup**
+### **Jenkins CI Setup**
 
-### **1. Create a Freestyle or Pipeline job**
+## **1. Create a Freestyle or Pipeline job**
 
-### **2. Add GitHub repo URL**
+## **2. Add GitHub repo URL**
 
 ```
 https://github.com/DSingh1405/MultiBankGroup_selenium_DaminiSingh.git
 ```
 
-### **3. Set Branch**
+## **3. Set Branch**
 
 ```
 */main
@@ -217,7 +218,7 @@ https://github.com/DSingh1405/MultiBankGroup_selenium_DaminiSingh.git
 
 (or your preferred branch)
 
-### **4. Add Build Step**
+## **4. Add Build Step**
 
 ```
 mvn clean test
@@ -230,35 +231,38 @@ mvn clean test
 * Email notification on failure
 
 ---
-# **Implementation Limitations & Pending Enhancements**
+### **Implementation Limitations & Pending Enhancements**
 
-* **Remote Execution Support (Selenium Grid / Selenoid)**
+# **Remote Execution Support (Selenium Grid / Selenoid)**
   - The framework is already designed to support RemoteWebDriver and can connect to Selenium Grid / Selenoid using a remote hub URL.
   - Currently, no Grid or Selenoid infrastructure is attached to this assignment.
   - Remote execution is handled in code and can be enabled instantly by providing:
+    
 ```
 Dremote=true  +  GRID_URL
 ```
+
    - For this assignment submission, execution is performed locally and on Jenkins only.
 
-* **Cross-Browser Support (Chrome / Firefox / Edge)**
+# **Cross-Browser Support (Chrome / Firefox / Edge)**
 ```
 -Dbrowser=chrome
 -Dbrowser=firefox
 -Dbrowser=edge
 ```
-    - Local system: Chrome and Firefox both run successfully.
+* Local system: Chrome and Firefox both run successfully.
 
-    - Jenkins Windows node:* Tests are restricted to Chrome due to a
+* Jenkins Windows node:* Tests are restricted to Chrome due to a
 ```
 geckodriver ↔ Firefox marionette compatibility issue.
 ```
-    - Jenkins is intentionally configured to run ensuring stability of build: 
+* Jenkins is intentionally configured to run ensuring stability of build: 
+    
 ```
 mvn clean test -Dbrowser=chrome
 ```
 
-* **Email Notifications (SMTP Configuration Pending)**
+# **Email Notifications (SMTP Configuration Pending)**
   - Email reporting is included in Jenkins job configuration.
   - SMTP setup is pending because Gmail requires:
     - 2-Step Verification
@@ -266,6 +270,7 @@ mvn clean test -Dbrowser=chrome
   - Due to account restrictions and time constraints, email alerts are not yet enabled.
 
 Jenkins is ready to support SMTP once the Gmail App Password is available.
+
 # **Known Issues / Notes/ Quick Fixes (mitigation activities)**
 
 * Firefox driver compatibility needs verification for Jenkins Windows nodes.
@@ -288,13 +293,33 @@ Jenkins is ready to support SMTP once the Gmail App Password is available.
 
 ---
 
-# **Contributions**
+### **Assignment 02 – Character Count Program**
+
+**Assignment 02 – Character Count**
+
+This assignment is implemented as a standalone Java program that counts how many times each character appears in a string while preserving the order of first appearance.
+It supports user-entered input, and if no input is provided, it automatically processes a predefined list of default strings.
+
+**Location in Project:**
+
+```
+src/test/java/Assignment02DS/CharacterCountInAString.java
+```
+
+**Purpose of This Assignment:**
+  - Demonstrates string manipulation and frequency counting using Java
+  - Uses LinkedHashMap to maintain character order
+  - Includes user input handling and fallback default test cases
+    
+---
+
+### **Contributions**
 
 Pull requests, bug reports, and suggestions are welcome!
 
 ---
 
-# **Author**
+## **Author**
 
 **Damini Singh**
 Automation Architect | QA Lead
