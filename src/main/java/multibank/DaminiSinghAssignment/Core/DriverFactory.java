@@ -31,7 +31,6 @@ import java.net.URL;
  *  - browserName → selects browser (chrome|firefox|edge)
  *  - headless=true|false → toggles headless execution
  *  - remote=true|false → runs tests locally or in Selenium Grid/Selenoid
- *  - gridUrl → remote Grid URL (default: http://localhost:4444/wd/hub)
  */
 public class DriverFactory {
 
@@ -120,8 +119,6 @@ public class DriverFactory {
      *  - Selenoid
      *  - Dockerized browser clusters
      *
-     * Grid URL is configurable using:
-     *     -Dremote=true -DgridUrl=http://localhost:4444/wd/hub
      *
      * @param browserName browser capability to use remotely
      * @param isHeadless enable headless inside container/grid

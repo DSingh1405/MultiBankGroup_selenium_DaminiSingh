@@ -36,9 +36,6 @@ public class HomePage extends BasePage {
      * All top-level navigation items in the header.
      * Example: Dashboard, Markets, Trade, Wallet, About Us, etc.
      *
-     * Used for:
-     *  - NAV-001: collecting displayed nav items and comparing with expected list
-     *  - NAV-002: iterating over nav items to verify hover and link mapping
      */
     @FindBy(xpath = "//div[contains(@class,'style_menu-container')]//*[self::a or self::span][contains(@class,'style_menu-item')]")
     private List<WebElement> navigationItemList;
@@ -47,15 +44,12 @@ public class HomePage extends BasePage {
      * Sub-menu items shown in popover after hovering a main nav item.
      * Example: under "Markets" → Spot, Instant Buy, Panic Sell, etc.
      *
-     * Used for:
-     *  - NAV-002: verifying that hover reveals sub-items and they are interactable
      */
     @FindBy(xpath = "//div[contains(@class,'popover')]//div[contains(@class,'style_text')]")
     private List<WebElement> navigationSubItemList;
 
     /**
      * MultiBank logo in the header.
-     * Used as a simple visibility check that the header is loaded.
      */
     @FindBy(xpath = "//img[contains(@class, 'style_logo')]")
     private WebElement mbLogo;
@@ -66,21 +60,18 @@ public class HomePage extends BasePage {
 
     /**
      * Root container for the banner carousel on the homepage.
-     * Considered as the “marketing banners” section for FOOT-001.
      */
     @FindBy(css = ".slick-list")
     private WebElement marketBanner;
 
     /**
      * All text spans inside the currently active banner slide.
-     * Used to collect marketing banner titles/labels for validation.
      */
     @FindBy(css = ".slick-list div[class*='slick-active'] span")
     private List<WebElement> activeBannerSpans;
 
     /**
      * Next arrow button to move the banner carousel.
-     * Can be used to iterate through all banners.
      */
     @FindBy(xpath = "//button[contains(@class,'style_next')]")
     private WebElement bannerNextArrow;
@@ -93,10 +84,6 @@ public class HomePage extends BasePage {
      * Button for Apple App Store download.
      * Located inside the "download app" section.
      *
-     * Used for APP-001:
-     *  - Click 'Download app' → 'App Store'
-     *  - Switch to new tab
-     *  - Validate URL & page title
      */
     @FindBy(xpath = "//div[contains(@class,'app-button')][.//img[@alt='app-store']]")
     private WebElement appleAppStoreButton;
@@ -104,10 +91,6 @@ public class HomePage extends BasePage {
     /**
      * Button for Google Play download.
      *
-     * Used for APP-002:
-     *  - Click 'Download MultiBank.io app' → 'Google Play'
-     *  - Switch to new tab
-     *  - Validate URL & page title
      */
     @FindBy(xpath = "//div[contains(@class,'app-button')][.//img[@alt='google-play']]")
     private WebElement googlePlayStoreButton;
@@ -237,8 +220,6 @@ public class HomePage extends BasePage {
     /**
      * Clicks the "next" arrow of the banner carousel.
      *
-     * Can be used in a test to iterate through all marketing banners and
-     * validate each slide's title / text against specs.
      */
     public void clickNextBanner() {
         bannerNextArrow.click();

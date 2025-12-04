@@ -32,7 +32,6 @@ public class SpotSectionPage extends BasePage {
 
     /**
      * Root container for the Spot section on the homepage.
-     * Used to verify that the Spot block is present and visible.
      */
     @FindBy(xpath = "//div[contains(@class,'home_home')]//div[.//span[normalize-space()='Spot']]")
     private WebElement SpotCategoryDiv;
@@ -40,7 +39,6 @@ public class SpotSectionPage extends BasePage {
     /**
      * Category filter buttons within the Spot section.
      * Example: "Top", "New", "Favourite" (depending on the UI).
-     * Used in SPOT-001 to loop through categories and gather trading pairs.
      */
     @FindBy(xpath = "//div[contains(@class,'home_home')]//div[.//span[normalize-space()='Spot']]//div[contains(@class, 'style_list')]/button")
     private List<WebElement> SpotCategoryButtons;
@@ -48,7 +46,6 @@ public class SpotSectionPage extends BasePage {
     /**
      * Column headers for the Spot trading table.
      * Example: "Pair", "Price", "24h Change", "High", "Low", "Last 7 Days".
-     * Used in SPOT-002 for structural validation.
      */
     @FindBy(xpath = "//tr[contains(@class,'style_headers')]/th[.//span]")
     private List<WebElement> spotColumnHeaders;
@@ -127,8 +124,6 @@ public class SpotSectionPage extends BasePage {
     /**
      * Simple visibility check for the Spot section container.
      *
-     * Can be used as an initial assertion that the Spot block
-     * is present on the homepage before further actions.
      */
     public boolean isSpotSectionVisible() {
         try {
